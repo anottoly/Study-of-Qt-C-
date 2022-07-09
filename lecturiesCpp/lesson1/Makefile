@@ -11,4 +11,4 @@ negative.o: negative.cpp negative.h
 	g++ -c negative.cpp negative.h
 
 clean: 
-	rm -rf *.o my_prog
+	rm -rf *.o my_prog *.h.gch
