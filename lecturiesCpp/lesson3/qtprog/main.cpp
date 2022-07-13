@@ -22,11 +22,10 @@ int main (int argc, char* argv[], char* envp[])
 
 
 
-    for (int i = 0; i < argument.size(); i++)
+    for (int i = 1; i < argc; i++)
     {
-        if (argument[i] <= '9' && argument[i] >= '0')
-            tmp += argument[i];
-        else if (tmp != "" && start != -1)
+        tmp = argv[i];
+        if (tmp != "" && start != -1)
             start = tmp.toInt();
         else if (tmp != "")
         {
@@ -72,8 +71,8 @@ int main (int argc, char* argv[], char* envp[])
         out << count;
     }
     else
-        out << -1;
-    out << start << ' ' << end << ' ' << *argv << envp[5] << Qt::endl;
+        out << 0;
+    //out << start << ' ' << end << ' ' << *argv << Qt::endl;
     numbers.close();
     return 0;
 }
