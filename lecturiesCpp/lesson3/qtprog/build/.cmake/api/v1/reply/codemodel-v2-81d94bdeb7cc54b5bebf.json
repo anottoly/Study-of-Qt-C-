@@ -26,7 +26,7 @@
 					[
 						0
 					],
-					"name" : "pro",
+					"name" : "qtprog",
 					"targetIndexes" : 
 					[
 						0
@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "pro::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pro-Debug-199a92e99ebe73f2ceec.json",
+					"jsonFile" : "target-pro-Debug-873055d865114d330357.json",
 					"name" : "pro",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/localadmin/Develop/test4/pro/build",
-		"source" : "/home/localadmin/Develop/test4/pro"
+		"build" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build",
+		"source" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog"
 	},
 	"version" : 
 	{

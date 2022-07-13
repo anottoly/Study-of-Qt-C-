@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/pro.dir/check_intvalue_prime.cpp.o"
+  "CMakeFiles/pro.dir/check_intvalue_prime.cpp.o.d"
   "CMakeFiles/pro.dir/main.cpp.o"
   "CMakeFiles/pro.dir/main.cpp.o.d"
   "pro"

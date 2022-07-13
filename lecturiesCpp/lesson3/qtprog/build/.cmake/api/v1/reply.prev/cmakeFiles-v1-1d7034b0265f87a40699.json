@@ -142,33 +142,13 @@
 		{
 			"isExternal" : true,
 			"path" : "/usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib64/cmake/Qt5/Qt5Config.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/localadmin/Develop/test4/pro/build",
-		"source" : "/home/localadmin/Develop/test4/pro"
+		"build" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build",
+		"source" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog"
 	},
 	"version" : 
 	{

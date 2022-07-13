@@ -1,5 +1,6 @@
 import subprocess
 import time
+#import ./qprog/build/pro
 
 def run(command):
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
@@ -32,21 +33,23 @@ def test(command, expected_code, expected_value):
             return
     print ('ok')
 
-test('./test 12 18', 0, [ 1 ])
-test('./test 1 99999', 0, [ 9344 ])
-test('./test 25 25', 0, [ 0 ])
-test('./test 30 29', 0, [ 0 ])
-test('./test 99999 1', 0, [ 0 ])
-test('./test 97 62285', 0, [ 4539 ])
-test('./test 41753 91449', 0, [ 7288 ])
-test('./test 3 99993', 0, [ 9343 ])
-test('./test 3', 255, [])
-test('./test', 255, [])
-test('./test 3 3 3', 255, [])
-test('./test 12 18 1 99999', 0, [ 1, 9344 ])
+adres = "./qtprog/build/pro"
+
+test(adres + ' 12 18', 0, [ 1 ])
+test(adres + ' 1 99999', 0, [ 9344 ])
+test(adres + ' 25 25', 0, [ 0 ])
+test(adres + ' 30 29', 0, [ 0 ])
+test(adres + ' 99999 1', 0, [ 0 ])
+test(adres + ' 97 62285', 0, [ 4539 ])
+test(adres + ' 41753 91449', 0, [ 7288 ])
+test(adres + ' 3 99993', 0, [ 9343 ])
+test(adres + ' 3', 255, [])
+test(adres + ' ', 255, [])
+test(adres + ' 3 3 3', 255, [])
+test(adres + ' 12 18 1 99999', 0, [ 1, 9344 ])
 
 print ('bencmarking')
 start = time.time()
-run('./test 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999')
+run(adres + ' 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999 1 99999')
 finish = time.time()
 print (finish - start, 'sec')

@@ -1,4 +1,4 @@
-# Install script for directory: /home/localadmin/Develop/test4/pro
+# Install script for directory: /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/localadmin/Develop/test4/pro/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

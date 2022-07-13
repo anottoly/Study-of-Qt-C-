@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/localadmin/Develop/test4/pro
+CMAKE_SOURCE_DIR = /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/localadmin/Develop/test4/pro/build
+CMAKE_BINARY_DIR = /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localadmin/Develop/test4/pro/build/CMakeFiles /home/localadmin/Develop/test4/pro/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/CMakeFiles /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localadmin/Develop/test4/pro/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ pro/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/build
 .PHONY : pro/fast
 
+check_intvalue_prime.o: check_intvalue_prime.cpp.o
+.PHONY : check_intvalue_prime.o
+
+# target to build an object file
+check_intvalue_prime.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/check_intvalue_prime.cpp.o
+.PHONY : check_intvalue_prime.cpp.o
+
+check_intvalue_prime.i: check_intvalue_prime.cpp.i
+.PHONY : check_intvalue_prime.i
+
+# target to preprocess a source file
+check_intvalue_prime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/check_intvalue_prime.cpp.i
+.PHONY : check_intvalue_prime.cpp.i
+
+check_intvalue_prime.s: check_intvalue_prime.cpp.s
+.PHONY : check_intvalue_prime.s
+
+# target to generate assembly for a file
+check_intvalue_prime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/check_intvalue_prime.cpp.s
+.PHONY : check_intvalue_prime.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... pro"
+	@echo "... check_intvalue_prime.o"
+	@echo "... check_intvalue_prime.i"
+	@echo "... check_intvalue_prime.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

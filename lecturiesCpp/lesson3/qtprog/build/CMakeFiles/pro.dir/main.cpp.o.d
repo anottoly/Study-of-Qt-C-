@@ -1,6 +1,6 @@
 CMakeFiles/pro.dir/main.cpp.o: \
- /home/localadmin/Develop/test4/pro/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/10/iostream \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/10/iostream \
  /usr/include/c++/10/x86_64-alt-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-alt-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -219,4 +219,5 @@ CMakeFiles/pro.dir/main.cpp.o: \
  /usr/include/c++/10/bits/shared_ptr_base.h \
  /usr/include/c++/10/bits/shared_ptr_atomic.h \
  /usr/include/c++/10/backward/auto_ptr.h \
- /usr/include/c++/10/pstl/glue_memory_defs.h
+ /usr/include/c++/10/pstl/glue_memory_defs.h \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/lesson3namespace.h

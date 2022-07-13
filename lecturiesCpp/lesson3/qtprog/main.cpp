@@ -4,31 +4,77 @@
 #include <QTextStream>
 #include <QIODevice>
 #include <QDebug>
-int main ()
+#include "lesson3namespace.h"
+
+int main (int argc, char* argv[], char* envp[])
 {
-    const QString filepath = "/home/localadmin/Develop/test4/pro/numbers.txt";
+    const QString filepath = "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/numbers.txt";
     QFile numbers;
     QTextStream out(stdout);
-    out << QFile::exists(filepath);
+    QTextStream in(stdin);
     numbers.setFileName(filepath);
     numbers.open(QIODevice::ReadOnly);
     QTextStream block(&numbers);
     QString filetext = block.readAll();
-    QString tmp = "", data = "";
-    int k = 0;
+    QString argument = *argv, tmp = "";
+    int start = -1, end = -1, id_array = 0;
 
-    for (int i = 0; i < filetext.size(); i++)
+
+
+
+    for (int i = 0; i < argument.size(); i++)
     {
-        if (filetext[i] <= '9' & filetext[i] >= '0')
+        if (argument[i] <= '9' && argument[i] >= '0')
+            tmp += argument[i];
+        else if (tmp != "" && start != -1)
+            start = tmp.toInt();
+        else if (tmp != "")
         {
-            tmp += filetext[i];
-        }
-        else
-        {
-            data[k] = tmp;
-            k += 1;
+            end = tmp.toInt();
+            break;
         }
     }
+    if (end == -1 && tmp != "")
+        end = tmp.toInt();
+
+    tmp = "";
+    if (argc - 1 == 2 && end - start > 0)
+    {
+        for (int i = 0; i < filetext.size(); i ++)
+        {
+            if (filetext[i] <= '9' && filetext[i] >= '0')
+            {
+                tmp += filetext[i];
+            }
+            else if (tmp != "")
+            {
+                //out << tmp.toInt() << Qt::endl;
+                tmp = "";
+                id_array ++;
+            }
+        }
+        int array[id_array];
+        id_array = 0;
+        for (int i = 0; i < filetext.size(); i ++)
+        {
+            if (filetext[i] <= '9' && filetext[i] >= '0')
+            {
+                tmp += filetext[i];
+            }
+            else if (tmp != "")
+            {
+                array[id_array] = tmp.toInt();
+                tmp = "";
+            }
+        }
+        int count;
+
+        out << count;
+    }
+    else
+        out << -1;
+    out << start << ' ' << end << ' ' << *argv << envp[5] << Qt::endl;
     numbers.close();
     return 0;
 }
+

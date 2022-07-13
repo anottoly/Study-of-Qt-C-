@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/localadmin/Develop/test4/pro/build"
+			"value" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -203,11 +203,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the CXX compiler during all build types."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-fsanitize=address"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_DEBUG",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/localadmin/Develop/test4/pro"
+			"value" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -747,7 +747,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "pro"
+			"value" : "qtprog"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1078,19 +1078,7 @@
 			"value" : "/usr/lib64/cmake/Qt5"
 		},
 		{
-			"name" : "Qt6_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt6."
-				}
-			],
-			"type" : "PATH",
-			"value" : "Qt6_DIR-NOTFOUND"
-		},
-		{
-			"name" : "pro_BINARY_DIR",
+			"name" : "qtprog_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1099,10 +1087,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/localadmin/Develop/test4/pro/build"
+			"value" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build"
 		},
 		{
-			"name" : "pro_SOURCE_DIR",
+			"name" : "qtprog_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1111,7 +1099,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/localadmin/Develop/test4/pro"
+			"value" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog"
 		}
 	],
 	"kind" : "cache",

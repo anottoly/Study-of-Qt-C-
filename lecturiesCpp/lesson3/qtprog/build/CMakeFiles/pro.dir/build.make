@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/localadmin/Develop/test4/pro
+CMAKE_SOURCE_DIR = /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/localadmin/Develop/test4/pro/build
+CMAKE_BINARY_DIR = /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pro.dir/depend.make
@@ -72,29 +72,45 @@ include CMakeFiles/pro.dir/flags.make
 CMakeFiles/pro.dir/main.cpp.o: CMakeFiles/pro.dir/flags.make
 CMakeFiles/pro.dir/main.cpp.o: ../main.cpp
 CMakeFiles/pro.dir/main.cpp.o: CMakeFiles/pro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/test4/pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pro.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pro.dir/main.cpp.o -MF CMakeFiles/pro.dir/main.cpp.o.d -o CMakeFiles/pro.dir/main.cpp.o -c /home/localadmin/Develop/test4/pro/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pro.dir/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pro.dir/main.cpp.o -MF CMakeFiles/pro.dir/main.cpp.o.d -o CMakeFiles/pro.dir/main.cpp.o -c /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/main.cpp
 
 CMakeFiles/pro.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pro.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/localadmin/Develop/test4/pro/main.cpp > CMakeFiles/pro.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/main.cpp > CMakeFiles/pro.dir/main.cpp.i
 
 CMakeFiles/pro.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pro.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/localadmin/Develop/test4/pro/main.cpp -o CMakeFiles/pro.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/main.cpp -o CMakeFiles/pro.dir/main.cpp.s
+
+CMakeFiles/pro.dir/check_intvalue_prime.cpp.o: CMakeFiles/pro.dir/flags.make
+CMakeFiles/pro.dir/check_intvalue_prime.cpp.o: ../check_intvalue_prime.cpp
+CMakeFiles/pro.dir/check_intvalue_prime.cpp.o: CMakeFiles/pro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pro.dir/check_intvalue_prime.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pro.dir/check_intvalue_prime.cpp.o -MF CMakeFiles/pro.dir/check_intvalue_prime.cpp.o.d -o CMakeFiles/pro.dir/check_intvalue_prime.cpp.o -c /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/check_intvalue_prime.cpp
+
+CMakeFiles/pro.dir/check_intvalue_prime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pro.dir/check_intvalue_prime.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/check_intvalue_prime.cpp > CMakeFiles/pro.dir/check_intvalue_prime.cpp.i
+
+CMakeFiles/pro.dir/check_intvalue_prime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pro.dir/check_intvalue_prime.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/check_intvalue_prime.cpp -o CMakeFiles/pro.dir/check_intvalue_prime.cpp.s
 
 # Object files for target pro
 pro_OBJECTS = \
-"CMakeFiles/pro.dir/main.cpp.o"
+"CMakeFiles/pro.dir/main.cpp.o" \
+"CMakeFiles/pro.dir/check_intvalue_prime.cpp.o"
 
 # External object files for target pro
 pro_EXTERNAL_OBJECTS =
 
 pro: CMakeFiles/pro.dir/main.cpp.o
+pro: CMakeFiles/pro.dir/check_intvalue_prime.cpp.o
 pro: CMakeFiles/pro.dir/build.make
 pro: /usr/lib64/libQt5Core.so.5.15.2
 pro: CMakeFiles/pro.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/localadmin/Develop/test4/pro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pro"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable pro"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pro.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +122,6 @@ CMakeFiles/pro.dir/clean:
 .PHONY : CMakeFiles/pro.dir/clean
 
 CMakeFiles/pro.dir/depend:
-	cd /home/localadmin/Develop/test4/pro/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/localadmin/Develop/test4/pro /home/localadmin/Develop/test4/pro /home/localadmin/Develop/test4/pro/build /home/localadmin/Develop/test4/pro/build /home/localadmin/Develop/test4/pro/build/CMakeFiles/pro.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build /home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/CMakeFiles/pro.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pro.dir/depend
 

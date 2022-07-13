@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/localadmin/Develop/test4/pro/main.cpp" "CMakeFiles/pro.dir/main.cpp.o" "gcc" "CMakeFiles/pro.dir/main.cpp.o.d"
+  "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/check_intvalue_prime.cpp" "CMakeFiles/pro.dir/check_intvalue_prime.cpp.o" "gcc" "CMakeFiles/pro.dir/check_intvalue_prime.cpp.o.d"
+  "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/main.cpp" "CMakeFiles/pro.dir/main.cpp.o" "gcc" "CMakeFiles/pro.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
