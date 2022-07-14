@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/practiceWithContainers.dir/main.cpp.o -o practiceWithContainers  /usr/lib64/libQt5Core.so.5.15.2 
