@@ -1,0 +1,3 @@
+/home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/build-practiceWithfilesystem-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/build-practiceWithfilesystem-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/build-practiceWithfilesystem-Desktop-Debug/CMakeFiles/practiceWithfilesystem.dir
