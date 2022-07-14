@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/practiceWithClasses.dir/main.cpp.o -o practiceWithClasses  /usr/lib64/libQt5Core.so.5.15.2 
