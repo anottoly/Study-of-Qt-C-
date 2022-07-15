@@ -1,7 +1,7 @@
 #include <iostream>
 #include <QTextStream>
 #include <QFileInfo>
-
+#include "fileworker.h"
 
 
 int main(int argc, char *argv[])
@@ -13,17 +13,20 @@ int main(int argc, char *argv[])
         out << "Choose a file, bro!" << Qt::endl;
         return 1;
     }
-    else if (argc > 2)
-    {
-        out << "Write a file correctly, bro!" << Qt::endl;
-        return 1;
-    }
     else
     {
-        QString filename = argv[1];
-        QFile file {filename};
-        if (!file.exists())
-            out << "Choose a correct filename, bro!" << Qt::endl;
+
+        FileWorker file (argv[1]);
+        file.openthefile();
+        file.writein();
+        out << QString("This is %1 bytes, bro!").arg(file.check_memorySizeByte()) << Qt::endl;
+
+        out << file.readAllFile() << Qt::endl;
+
+        out << file.readAllFile() << Qt::endl;
+        file.writein();
+
+        file.groupandowner();
     }
 
     return 0;

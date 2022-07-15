@@ -18,43 +18,43 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_logindialog
+class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
-    void setupUi(QMainWindow *logindialog)
+    void setupUi(QMainWindow *MainWindow)
     {
-        if (logindialog->objectName().isEmpty())
-            logindialog->setObjectName(QString::fromUtf8("logindialog"));
-        logindialog->resize(400, 200);
-        centralwidget = new QWidget(logindialog);
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->resize(400, 200);
+        centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        logindialog->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(logindialog);
+        MainWindow->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
         menubar->setGeometry(QRect(0, 0, 400, 22));
-        logindialog->setMenuBar(menubar);
-        statusbar = new QStatusBar(logindialog);
+        MainWindow->setMenuBar(menubar);
+        statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
-        logindialog->setStatusBar(statusbar);
+        MainWindow->setStatusBar(statusbar);
 
-        retranslateUi(logindialog);
+        retranslateUi(MainWindow);
 
-        QMetaObject::connectSlotsByName(logindialog);
+        QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
 
-    void retranslateUi(QMainWindow *logindialog)
+    void retranslateUi(QMainWindow *MainWindow)
     {
-        logindialog->setWindowTitle(QCoreApplication::translate("logindialog", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class logindialog: public Ui_logindialog {};
+    class MainWindow: public Ui_MainWindow {};
 } // namespace Ui
 
 QT_END_NAMESPACE

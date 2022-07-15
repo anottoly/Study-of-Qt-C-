@@ -129,6 +129,54 @@ practiceWithfilesystem/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practiceWithfilesystem.dir/build.make CMakeFiles/practiceWithfilesystem.dir/build
 .PHONY : practiceWithfilesystem/fast
 
+check_memorySizeByte.o: check_memorySizeByte.cpp.o
+.PHONY : check_memorySizeByte.o
+
+# target to build an object file
+check_memorySizeByte.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practiceWithfilesystem.dir/build.make CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o
+.PHONY : check_memorySizeByte.cpp.o
+
+check_memorySizeByte.i: check_memorySizeByte.cpp.i
+.PHONY : check_memorySizeByte.i
+
+# target to preprocess a source file
+check_memorySizeByte.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practiceWithfilesystem.dir/build.make CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.i
+.PHONY : check_memorySizeByte.cpp.i
+
+check_memorySizeByte.s: check_memorySizeByte.cpp.s
+.PHONY : check_memorySizeByte.s
+
+# target to generate assembly for a file
+check_memorySizeByte.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practiceWithfilesystem.dir/build.make CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.s
+.PHONY : check_memorySizeByte.cpp.s
+
+fileworker.o: fileworker.cpp.o
+.PHONY : fileworker.o
+
+# target to build an object file
+fileworker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practiceWithfilesystem.dir/build.make CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o
+.PHONY : fileworker.cpp.o
+
+fileworker.i: fileworker.cpp.i
+.PHONY : fileworker.i
+
+# target to preprocess a source file
+fileworker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practiceWithfilesystem.dir/build.make CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.i
+.PHONY : fileworker.cpp.i
+
+fileworker.s: fileworker.cpp.s
+.PHONY : fileworker.s
+
+# target to generate assembly for a file
+fileworker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practiceWithfilesystem.dir/build.make CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.s
+.PHONY : fileworker.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... practiceWithfilesystem"
+	@echo "... check_memorySizeByte.o"
+	@echo "... check_memorySizeByte.i"
+	@echo "... check_memorySizeByte.s"
+	@echo "... fileworker.o"
+	@echo "... fileworker.i"
+	@echo "... fileworker.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

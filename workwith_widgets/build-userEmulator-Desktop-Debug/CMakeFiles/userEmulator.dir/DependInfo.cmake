@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/loginwindow.cpp" "CMakeFiles/userEmulator.dir/loginwindow.cpp.o" "gcc" "CMakeFiles/userEmulator.dir/loginwindow.cpp.o.d"
   "/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/main.cpp" "CMakeFiles/userEmulator.dir/main.cpp.o" "gcc" "CMakeFiles/userEmulator.dir/main.cpp.o.d"
   "/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/mainwindow.cpp" "CMakeFiles/userEmulator.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/userEmulator.dir/mainwindow.cpp.o.d"
   "/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/mocs_compilation.cpp" "CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o.d"

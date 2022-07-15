@@ -204,4 +204,7 @@ CMakeFiles/practiceWithfilesystem.dir/main.cpp.o: \
  /usr/include/qt5/QtCore/qmap.h /usr/include/qt5/QtCore/qhash.h \
  /usr/include/c++/10/variant /usr/include/qt5/QtCore/qshareddata.h \
  /usr/include/qt5/QtCore/QFileInfo /usr/include/qt5/QtCore/qfileinfo.h \
- /usr/include/qt5/QtCore/qfile.h /usr/include/qt5/QtCore/qfiledevice.h
+ /usr/include/qt5/QtCore/qfile.h /usr/include/qt5/QtCore/qfiledevice.h \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/fileworker.h \
+ /usr/include/qt5/QtCore/QFile /usr/include/qt5/QtCore/qfile.h \
+ /usr/include/qt5/QtCore/QIODevice /usr/include/qt5/QtCore/qiodevice.h

@@ -142,6 +142,30 @@ userEmulator_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/userEmulator_autogen.dir/build.make CMakeFiles/userEmulator_autogen.dir/build
 .PHONY : userEmulator_autogen/fast
 
+loginwindow.o: loginwindow.cpp.o
+.PHONY : loginwindow.o
+
+# target to build an object file
+loginwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/userEmulator.dir/build.make CMakeFiles/userEmulator.dir/loginwindow.cpp.o
+.PHONY : loginwindow.cpp.o
+
+loginwindow.i: loginwindow.cpp.i
+.PHONY : loginwindow.i
+
+# target to preprocess a source file
+loginwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/userEmulator.dir/build.make CMakeFiles/userEmulator.dir/loginwindow.cpp.i
+.PHONY : loginwindow.cpp.i
+
+loginwindow.s: loginwindow.cpp.s
+.PHONY : loginwindow.s
+
+# target to generate assembly for a file
+loginwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/userEmulator.dir/build.make CMakeFiles/userEmulator.dir/loginwindow.cpp.s
+.PHONY : loginwindow.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -224,6 +248,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... userEmulator_autogen"
 	@echo "... userEmulator"
+	@echo "... loginwindow.o"
+	@echo "... loginwindow.i"
+	@echo "... loginwindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

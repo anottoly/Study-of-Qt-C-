@@ -83,18 +83,50 @@ CMakeFiles/practiceWithfilesystem.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practiceWithfilesystem.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/main.cpp -o CMakeFiles/practiceWithfilesystem.dir/main.cpp.s
 
+CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o: CMakeFiles/practiceWithfilesystem.dir/flags.make
+CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/fileworker.cpp
+CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o: CMakeFiles/practiceWithfilesystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/build-practiceWithfilesystem-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o -MF CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o.d -o CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o -c /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/fileworker.cpp
+
+CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/fileworker.cpp > CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.i
+
+CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/fileworker.cpp -o CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.s
+
+CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o: CMakeFiles/practiceWithfilesystem.dir/flags.make
+CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/check_memorySizeByte.cpp
+CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o: CMakeFiles/practiceWithfilesystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/build-practiceWithfilesystem-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o -MF CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o.d -o CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o -c /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/check_memorySizeByte.cpp
+
+CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/check_memorySizeByte.cpp > CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.i
+
+CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/check_memorySizeByte.cpp -o CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.s
+
 # Object files for target practiceWithfilesystem
 practiceWithfilesystem_OBJECTS = \
-"CMakeFiles/practiceWithfilesystem.dir/main.cpp.o"
+"CMakeFiles/practiceWithfilesystem.dir/main.cpp.o" \
+"CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o" \
+"CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o"
 
 # External object files for target practiceWithfilesystem
 practiceWithfilesystem_EXTERNAL_OBJECTS =
 
 practiceWithfilesystem: CMakeFiles/practiceWithfilesystem.dir/main.cpp.o
+practiceWithfilesystem: CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o
+practiceWithfilesystem: CMakeFiles/practiceWithfilesystem.dir/check_memorySizeByte.cpp.o
 practiceWithfilesystem: CMakeFiles/practiceWithfilesystem.dir/build.make
 practiceWithfilesystem: /usr/lib64/libQt5Core.so.5.15.2
 practiceWithfilesystem: CMakeFiles/practiceWithfilesystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/build-practiceWithfilesystem-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable practiceWithfilesystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/build-practiceWithfilesystem-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable practiceWithfilesystem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/practiceWithfilesystem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

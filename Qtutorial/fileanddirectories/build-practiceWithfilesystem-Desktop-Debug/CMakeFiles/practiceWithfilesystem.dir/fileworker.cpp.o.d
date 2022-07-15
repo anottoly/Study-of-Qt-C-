@@ -1,11 +1,10 @@
-CMakeFiles/userEmulator.dir/mainwindow.cpp.o: \
- /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/mainwindow.cpp \
+CMakeFiles/practiceWithfilesystem.dir/fileworker.cpp.o: \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/fileworker.cpp \
  /usr/include/stdc-predef.h \
- /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/mainwindow.h \
- /usr/include/qt5/QtWidgets/QMainWindow \
- /usr/include/qt5/QtWidgets/qmainwindow.h \
- /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
- /usr/include/qt5/QtGui/qtguiglobal.h /usr/include/qt5/QtCore/qglobal.h \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/Qtutorial/fileanddirectories/practiceWithfilesystem/fileworker.h \
+ /usr/include/qt5/QtCore/QTextStream \
+ /usr/include/qt5/QtCore/qtextstream.h \
+ /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtCore/qglobal.h \
  /usr/include/c++/10/type_traits \
  /usr/include/c++/10/x86_64-alt-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-alt-linux/bits/os_defines.h \
@@ -109,18 +108,13 @@ CMakeFiles/userEmulator.dir/mainwindow.cpp.o: \
  /usr/include/qt5/QtCore/qglobalstatic.h \
  /usr/include/qt5/QtCore/qnumeric.h \
  /usr/include/qt5/QtCore/qversiontagging.h \
- /usr/include/qt5/QtGui/qtgui-config.h \
- /usr/include/qt5/QtWidgets/qtwidgets-config.h \
- /usr/include/qt5/QtWidgets/qwidget.h \
- /usr/include/qt5/QtGui/qwindowdefs.h \
- /usr/include/qt5/QtCore/qobjectdefs.h \
+ /usr/include/qt5/QtCore/qobject.h /usr/include/qt5/QtCore/qobjectdefs.h \
  /usr/include/qt5/QtCore/qnamespace.h \
  /usr/include/qt5/QtCore/qobjectdefs_impl.h \
- /usr/include/qt5/QtCore/qobject.h /usr/include/qt5/QtCore/qstring.h \
- /usr/include/qt5/QtCore/qchar.h /usr/include/qt5/QtCore/qbytearray.h \
- /usr/include/qt5/QtCore/qrefcount.h /usr/include/qt5/QtCore/qarraydata.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/10/stdlib.h \
+ /usr/include/qt5/QtCore/qstring.h /usr/include/qt5/QtCore/qchar.h \
+ /usr/include/qt5/QtCore/qbytearray.h /usr/include/qt5/QtCore/qrefcount.h \
+ /usr/include/qt5/QtCore/qarraydata.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/10/stdlib.h \
  /usr/lib64/gcc/x86_64-alt-linux/10/include/stdarg.h \
  /usr/include/c++/10/string /usr/include/c++/10/bits/stringfwd.h \
  /usr/include/c++/10/bits/char_traits.h \
@@ -196,49 +190,10 @@ CMakeFiles/userEmulator.dir/mainwindow.cpp.o: \
  /usr/include/qt5/QtCore/qobject_impl.h /usr/include/c++/10/chrono \
  /usr/include/c++/10/ratio /usr/include/c++/10/ctime \
  /usr/include/c++/10/bits/parse_numbers.h \
- /usr/include/qt5/QtCore/qmargins.h /usr/include/qt5/QtGui/qpaintdevice.h \
- /usr/include/qt5/QtCore/qrect.h /usr/include/qt5/QtCore/qsize.h \
- /usr/include/qt5/QtCore/qpoint.h /usr/include/qt5/QtGui/qpalette.h \
- /usr/include/qt5/QtGui/qcolor.h /usr/include/qt5/QtGui/qrgb.h \
- /usr/include/qt5/QtGui/qrgba64.h /usr/include/qt5/QtGui/qbrush.h \
- /usr/include/qt5/QtGui/qmatrix.h /usr/include/qt5/QtGui/qpolygon.h \
- /usr/include/qt5/QtGui/qregion.h /usr/include/qt5/QtCore/qdatastream.h \
- /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtCore/qline.h \
- /usr/include/qt5/QtGui/qtransform.h /usr/include/qt5/QtGui/qimage.h \
- /usr/include/qt5/QtGui/qpixelformat.h /usr/include/qt5/QtGui/qpixmap.h \
- /usr/include/qt5/QtCore/qsharedpointer.h \
- /usr/include/qt5/QtCore/qshareddata.h /usr/include/qt5/QtCore/qhash.h \
- /usr/include/qt5/QtCore/qsharedpointer_impl.h /usr/include/c++/10/memory \
- /usr/include/c++/10/bits/stl_raw_storage_iter.h \
- /usr/include/c++/10/bits/ranges_uninitialized.h \
- /usr/include/c++/10/ext/concurrence.h \
- /usr/include/c++/10/bits/unique_ptr.h \
- /usr/include/c++/10/bits/shared_ptr.h \
- /usr/include/c++/10/bits/shared_ptr_base.h \
- /usr/include/c++/10/bits/shared_ptr_atomic.h \
- /usr/include/c++/10/backward/auto_ptr.h \
- /usr/include/c++/10/pstl/glue_memory_defs.h \
- /usr/include/qt5/QtGui/qfont.h /usr/include/qt5/QtGui/qfontmetrics.h \
- /usr/include/qt5/QtGui/qfontinfo.h \
- /usr/include/qt5/QtWidgets/qsizepolicy.h \
- /usr/include/qt5/QtGui/qcursor.h /usr/include/qt5/QtGui/qkeysequence.h \
- /usr/include/qt5/QtWidgets/qtabwidget.h /usr/include/qt5/QtGui/qicon.h \
- /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/include/ui_mainwindow.h \
- /usr/include/qt5/QtCore/QVariant /usr/include/qt5/QtCore/qvariant.h \
- /usr/include/qt5/QtCore/qmap.h /usr/include/c++/10/variant \
- /usr/include/qt5/QtWidgets/QApplication \
- /usr/include/qt5/QtWidgets/qapplication.h \
- /usr/include/qt5/QtCore/qcoreapplication.h \
- /usr/include/qt5/QtCore/qcoreevent.h \
- /usr/include/qt5/QtCore/qeventloop.h \
- /usr/include/qt5/QtGui/qguiapplication.h \
- /usr/include/qt5/QtGui/qinputmethod.h /usr/include/qt5/QtCore/qlocale.h \
- /usr/include/qt5/QtCore/qvariant.h \
- /usr/include/qt5/QtWidgets/QMainWindow \
- /usr/include/qt5/QtWidgets/QMenuBar \
- /usr/include/qt5/QtWidgets/qmenubar.h /usr/include/qt5/QtWidgets/qmenu.h \
- /usr/include/qt5/QtWidgets/qaction.h \
- /usr/include/qt5/QtWidgets/qactiongroup.h \
- /usr/include/qt5/QtWidgets/QStatusBar \
- /usr/include/qt5/QtWidgets/qstatusbar.h \
- /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h
+ /usr/include/qt5/QtCore/qlocale.h /usr/include/qt5/QtCore/qvariant.h \
+ /usr/include/qt5/QtCore/qmap.h /usr/include/qt5/QtCore/qhash.h \
+ /usr/include/c++/10/variant /usr/include/qt5/QtCore/qshareddata.h \
+ /usr/include/qt5/QtCore/QFile /usr/include/qt5/QtCore/qfile.h \
+ /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtCore/QIODevice \
+ /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtCore/QFileInfo \
+ /usr/include/qt5/QtCore/qfileinfo.h /usr/include/qt5/QtCore/qfile.h

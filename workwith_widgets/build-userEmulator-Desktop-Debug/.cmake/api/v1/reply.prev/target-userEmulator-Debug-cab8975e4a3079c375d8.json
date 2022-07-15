@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 42,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 48,
+				"line" : 50,
 				"parent" : 0
 			}
 		]
@@ -118,7 +118,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		}
 	],
@@ -173,14 +174,16 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				3
+				3,
+				7
 			]
 		},
 		{
@@ -225,8 +228,19 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "logindialog.ui",
+			"path" : "loginWindow.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "loginwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "loginwindow.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
