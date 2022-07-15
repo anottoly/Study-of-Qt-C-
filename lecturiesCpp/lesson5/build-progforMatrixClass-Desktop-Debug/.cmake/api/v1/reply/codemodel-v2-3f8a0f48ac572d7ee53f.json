@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "progforMatrixClass",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "progforMatrixClass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-progforMatrixClass-Debug-3ddf7b0b2ef90d0406d4.json",
+					"name" : "progforMatrixClass",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson5/build-progforMatrixClass-Desktop-Debug",
+		"source" : "/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson5/progforMatrixClass"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

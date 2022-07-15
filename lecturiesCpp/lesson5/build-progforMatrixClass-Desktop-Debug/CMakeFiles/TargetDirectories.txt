@@ -1,0 +1,3 @@
+/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson5/build-progforMatrixClass-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson5/build-progforMatrixClass-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson5/build-progforMatrixClass-Desktop-Debug/CMakeFiles/progforMatrixClass.dir
