@@ -19,7 +19,7 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        loginWindow.ui
+        loginwindow.ui
         loginwindow.cpp
         loginwindow.h
 )

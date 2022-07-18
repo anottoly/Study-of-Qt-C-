@@ -5,7 +5,8 @@
 
 class Matrix
 {
-    int* intarr;
+    int** intarr;
+    int sizearr;
 public:
     Matrix();
     void setvalue(int value);
