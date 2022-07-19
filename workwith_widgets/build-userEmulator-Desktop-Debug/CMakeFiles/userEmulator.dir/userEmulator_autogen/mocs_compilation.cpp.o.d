@@ -1,7 +1,7 @@
 CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/EWIEGA46WW/moc_loginwindow.cpp \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/EWIEGA46WW/moc_errorwidget.cpp \
  /usr/include/c++/10/memory /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/c++/10/x86_64-alt-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-alt-linux/bits/os_defines.h \
@@ -95,12 +95,12 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/cstdint \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
- /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/EWIEGA46WW/../../../userEmulator/loginwindow.h \
- /usr/include/qt5/QtWidgets/QtWidgets \
- /usr/include/qt5/QtWidgets/QtWidgetsDepends \
- /usr/include/qt5/QtCore/QtCore /usr/include/qt5/QtCore/QtCoreDepends \
- /usr/include/qt5/QtCore/qglobal.h /usr/include/c++/10/cstddef \
- /usr/include/assert.h /usr/include/qt5/QtCore/qconfig.h \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/EWIEGA46WW/../../../userEmulator/errorwidget.h \
+ /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h \
+ /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/qt5/QtGui/qtguiglobal.h /usr/include/qt5/QtCore/qglobal.h \
+ /usr/include/c++/10/cstddef /usr/include/assert.h \
+ /usr/include/qt5/QtCore/qconfig.h \
  /usr/include/qt5/QtCore/qtcore-config.h \
  /usr/include/qt5/QtCore/qsystemdetection.h \
  /usr/include/qt5/QtCore/qprocessordetection.h \
@@ -127,23 +127,26 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/10/bits/stl_vector.h \
  /usr/include/c++/10/bits/stl_bvector.h \
  /usr/include/c++/10/bits/vector.tcc /usr/include/qt5/QtCore/qtypeinfo.h \
- /usr/include/qt5/QtCore/qglobal.h /usr/include/qt5/QtCore/qsysinfo.h \
- /usr/include/qt5/QtCore/qlogging.h /usr/include/qt5/QtCore/qflags.h \
- /usr/include/qt5/QtCore/qatomic.h /usr/include/qt5/QtCore/qbasicatomic.h \
+ /usr/include/qt5/QtCore/qsysinfo.h /usr/include/qt5/QtCore/qlogging.h \
+ /usr/include/qt5/QtCore/qflags.h /usr/include/qt5/QtCore/qatomic.h \
+ /usr/include/qt5/QtCore/qbasicatomic.h \
  /usr/include/qt5/QtCore/qatomic_cxx11.h \
  /usr/include/qt5/QtCore/qgenericatomic.h /usr/include/c++/10/atomic \
  /usr/include/qt5/QtCore/qglobalstatic.h \
  /usr/include/qt5/QtCore/qnumeric.h \
  /usr/include/qt5/QtCore/qversiontagging.h \
- /usr/include/qt5/QtCore/qabstractanimation.h \
- /usr/include/qt5/QtCore/qobject.h /usr/include/qt5/QtCore/qobjectdefs.h \
+ /usr/include/qt5/QtGui/qtgui-config.h \
+ /usr/include/qt5/QtWidgets/qtwidgets-config.h \
+ /usr/include/qt5/QtGui/qwindowdefs.h \
+ /usr/include/qt5/QtCore/qobjectdefs.h \
  /usr/include/qt5/QtCore/qnamespace.h \
  /usr/include/qt5/QtCore/qobjectdefs_impl.h \
- /usr/include/qt5/QtCore/qstring.h /usr/include/qt5/QtCore/qchar.h \
- /usr/include/qt5/QtCore/qbytearray.h /usr/include/qt5/QtCore/qrefcount.h \
- /usr/include/qt5/QtCore/qarraydata.h /usr/include/string.h \
- /usr/include/strings.h /usr/include/c++/10/stdlib.h \
- /usr/include/c++/10/string /usr/include/c++/10/bits/char_traits.h \
+ /usr/include/qt5/QtCore/qobject.h /usr/include/qt5/QtCore/qstring.h \
+ /usr/include/qt5/QtCore/qchar.h /usr/include/qt5/QtCore/qbytearray.h \
+ /usr/include/qt5/QtCore/qrefcount.h /usr/include/qt5/QtCore/qarraydata.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/10/stdlib.h /usr/include/c++/10/string \
+ /usr/include/c++/10/bits/char_traits.h \
  /usr/include/c++/10/bits/localefwd.h \
  /usr/include/c++/10/x86_64-alt-linux/bits/c++locale.h \
  /usr/include/c++/10/clocale /usr/include/locale.h \
@@ -199,14 +202,60 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/qobject_impl.h /usr/include/c++/10/chrono \
  /usr/include/c++/10/ratio /usr/include/c++/10/ctime \
  /usr/include/c++/10/bits/parse_numbers.h \
+ /usr/include/qt5/QtCore/qmargins.h /usr/include/qt5/QtGui/qpaintdevice.h \
+ /usr/include/qt5/QtCore/qrect.h /usr/include/qt5/QtCore/qsize.h \
+ /usr/include/qt5/QtCore/qpoint.h /usr/include/qt5/QtGui/qpalette.h \
+ /usr/include/qt5/QtGui/qcolor.h /usr/include/qt5/QtGui/qrgb.h \
+ /usr/include/qt5/QtGui/qrgba64.h /usr/include/qt5/QtGui/qbrush.h \
+ /usr/include/qt5/QtGui/qmatrix.h /usr/include/qt5/QtGui/qpolygon.h \
+ /usr/include/qt5/QtGui/qregion.h /usr/include/qt5/QtCore/qdatastream.h \
+ /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtCore/qline.h \
+ /usr/include/qt5/QtGui/qtransform.h /usr/include/qt5/QtGui/qimage.h \
+ /usr/include/qt5/QtGui/qpixelformat.h /usr/include/qt5/QtGui/qpixmap.h \
+ /usr/include/qt5/QtCore/qsharedpointer.h \
+ /usr/include/qt5/QtCore/qshareddata.h /usr/include/qt5/QtCore/qhash.h \
+ /usr/include/qt5/QtCore/qsharedpointer_impl.h \
+ /usr/include/qt5/QtGui/qfont.h /usr/include/qt5/QtGui/qfontmetrics.h \
+ /usr/include/qt5/QtGui/qfontinfo.h \
+ /usr/include/qt5/QtWidgets/qsizepolicy.h \
+ /usr/include/qt5/QtGui/qcursor.h /usr/include/qt5/QtGui/qkeysequence.h \
+ /usr/include/qt5/QtCore/QString /usr/include/qt5/QtCore/qstring.h \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/EWIEGA46WW/moc_graphwidget.cpp \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/EWIEGA46WW/../../../userEmulator/graphwidget.h \
+ /usr/include/qt5/QtWidgets/QTableWidget \
+ /usr/include/qt5/QtWidgets/qtablewidget.h \
+ /usr/include/qt5/QtWidgets/qtableview.h \
+ /usr/include/qt5/QtWidgets/qabstractitemview.h \
+ /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt5/QtWidgets/qframe.h /usr/include/qt5/QtWidgets/qwidget.h \
+ /usr/include/qt5/QtCore/qabstractitemmodel.h \
+ /usr/include/qt5/QtCore/qvariant.h /usr/include/qt5/QtCore/qmap.h \
+ /usr/include/c++/10/variant \
+ /usr/include/qt5/QtCore/qitemselectionmodel.h \
+ /usr/include/qt5/QtCore/qset.h \
+ /usr/include/qt5/QtWidgets/qabstractitemdelegate.h \
+ /usr/include/qt5/QtWidgets/qstyleoption.h \
+ /usr/include/qt5/QtCore/qlocale.h \
+ /usr/include/qt5/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt5/QtGui/qvalidator.h \
+ /usr/include/qt5/QtCore/qregularexpression.h \
+ /usr/include/qt5/QtGui/qicon.h /usr/include/qt5/QtWidgets/qslider.h \
+ /usr/include/qt5/QtWidgets/qabstractslider.h \
+ /usr/include/qt5/QtWidgets/qstyle.h /usr/include/qt5/QtWidgets/qtabbar.h \
+ /usr/include/qt5/QtWidgets/qtabwidget.h \
+ /usr/include/qt5/QtWidgets/qrubberband.h \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/EWIEGA46WW/moc_loginwindow.cpp \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/userEmulator_autogen/EWIEGA46WW/../../../userEmulator/loginwindow.h \
+ /usr/include/qt5/QtWidgets/QtWidgets \
+ /usr/include/qt5/QtWidgets/QtWidgetsDepends \
+ /usr/include/qt5/QtCore/QtCore /usr/include/qt5/QtCore/QtCoreDepends \
+ /usr/include/qt5/QtCore/qglobal.h \
+ /usr/include/qt5/QtCore/qabstractanimation.h \
  /usr/include/qt5/QtCore/qabstracteventdispatcher.h \
  /usr/include/qt5/QtCore/qeventloop.h \
  /usr/include/qt5/QtCore/qabstractitemmodel.h \
- /usr/include/qt5/QtCore/qvariant.h /usr/include/qt5/QtCore/qmap.h \
- /usr/include/qt5/QtCore/qhash.h /usr/include/c++/10/variant \
  /usr/include/qt5/QtCore/qabstractnativeeventfilter.h \
  /usr/include/qt5/QtCore/qabstractproxymodel.h \
- /usr/include/qt5/QtCore/qabstractitemmodel.h \
  /usr/include/qt5/QtCore/qabstractstate.h \
  /usr/include/qt5/QtCore/qabstracttransition.h \
  /usr/include/qt5/QtCore/qalgorithms.h \
@@ -218,19 +267,15 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/qarraydataops.h \
  /usr/include/qt5/QtCore/qatomic.h /usr/include/qt5/QtCore/qbasictimer.h \
  /usr/include/qt5/QtCore/qbitarray.h /usr/include/qt5/QtCore/qbuffer.h \
- /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtCore/qbytearray.h \
+ /usr/include/qt5/QtCore/qbytearray.h \
  /usr/include/qt5/QtCore/qbytearraylist.h \
  /usr/include/qt5/QtCore/qbytearraymatcher.h \
  /usr/include/qt5/QtCore/qcache.h /usr/include/qt5/QtCore/qcalendar.h \
- /usr/include/qt5/QtCore/qlocale.h /usr/include/qt5/QtCore/qshareddata.h \
  /usr/include/qt5/QtCore/qcborarray.h \
  /usr/include/qt5/QtCore/qcborvalue.h /usr/include/qt5/QtCore/qdatetime.h \
  /usr/include/qt5/QtCore/qcborcommon.h /usr/include/qt5/QtCore/qdebug.h \
- /usr/include/qt5/QtCore/qtextstream.h /usr/include/qt5/QtCore/qset.h \
+ /usr/include/qt5/QtCore/qtextstream.h \
  /usr/include/qt5/QtCore/qcontiguouscache.h \
- /usr/include/qt5/QtCore/qsharedpointer.h \
- /usr/include/qt5/QtCore/qsharedpointer_impl.h \
- /usr/include/qt5/QtCore/qregularexpression.h \
  /usr/include/qt5/QtCore/qurl.h /usr/include/qt5/QtCore/quuid.h \
  /usr/include/qt5/QtCore/qcborcommon.h /usr/include/qt5/QtCore/qcbormap.h \
  /usr/include/qt5/QtCore/qcborstream.h \
@@ -301,8 +346,7 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/qjsonvalue.h /usr/include/qt5/QtCore/qlibrary.h \
  /usr/include/qt5/QtCore/qlibraryinfo.h \
  /usr/include/qt5/QtCore/qversionnumber.h /usr/include/qt5/QtCore/qline.h \
- /usr/include/qt5/QtCore/qpoint.h /usr/include/qt5/QtCore/qlinkedlist.h \
- /usr/include/qt5/QtCore/qdatastream.h /usr/include/qt5/QtCore/qlist.h \
+ /usr/include/qt5/QtCore/qlinkedlist.h /usr/include/qt5/QtCore/qlist.h \
  /usr/include/qt5/QtCore/qlocale.h /usr/include/qt5/QtCore/qlockfile.h \
  /usr/include/qt5/QtCore/qloggingcategory.h \
  /usr/include/qt5/QtCore/qmap.h /usr/include/qt5/QtCore/qmargins.h \
@@ -356,7 +400,6 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/10/x86_64-alt-linux/bits/opt_random.h \
  /usr/include/c++/10/bits/random.tcc \
  /usr/include/qt5/QtCore/qreadwritelock.h /usr/include/qt5/QtCore/qrect.h \
- /usr/include/qt5/QtCore/qmargins.h /usr/include/qt5/QtCore/qsize.h \
  /usr/include/qt5/QtCore/qrefcount.h /usr/include/qt5/QtCore/qregexp.h \
  /usr/include/qt5/QtCore/qregularexpression.h \
  /usr/include/qt5/QtCore/qresource.h \
@@ -380,7 +423,6 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/qstandardpaths.h \
  /usr/include/qt5/QtCore/qstate.h /usr/include/qt5/QtCore/qstatemachine.h \
  /usr/include/qt5/QtCore/qstate.h /usr/include/qt5/QtCore/qstorageinfo.h \
- /usr/include/qt5/QtCore/qstring.h \
  /usr/include/qt5/QtCore/qstringalgorithms.h \
  /usr/include/qt5/QtCore/qstringbuilder.h \
  /usr/include/qt5/QtCore/qstringlistmodel.h \
@@ -419,25 +461,14 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/qxmlstream.h \
  /usr/include/qt5/QtCore/qtcoreversion.h /usr/include/qt5/QtGui/QtGui \
  /usr/include/qt5/QtGui/QtGuiDepends /usr/include/qt5/QtGui/qtguiglobal.h \
- /usr/include/qt5/QtGui/qtgui-config.h \
  /usr/include/qt5/QtGui/qabstracttextdocumentlayout.h \
- /usr/include/qt5/QtGui/qtguiglobal.h \
- /usr/include/qt5/QtGui/qtextlayout.h /usr/include/qt5/QtCore/qrect.h \
- /usr/include/qt5/QtGui/qcolor.h /usr/include/qt5/QtGui/qrgb.h \
- /usr/include/qt5/QtGui/qrgba64.h /usr/include/qt5/QtGui/qevent.h \
- /usr/include/qt5/QtGui/qwindowdefs.h /usr/include/qt5/QtGui/qregion.h \
- /usr/include/qt5/QtGui/qkeysequence.h /usr/include/qt5/QtGui/qvector2d.h \
- /usr/include/qt5/QtGui/qtouchdevice.h \
- /usr/include/qt5/QtGui/qtextformat.h /usr/include/qt5/QtGui/qfont.h \
- /usr/include/qt5/QtGui/qpen.h /usr/include/qt5/QtGui/qbrush.h \
- /usr/include/qt5/QtGui/qmatrix.h /usr/include/qt5/QtGui/qpolygon.h \
- /usr/include/qt5/QtCore/qline.h /usr/include/qt5/QtGui/qtransform.h \
- /usr/include/qt5/QtGui/qimage.h /usr/include/qt5/QtGui/qpaintdevice.h \
- /usr/include/qt5/QtGui/qpixelformat.h /usr/include/qt5/QtGui/qpixmap.h \
+ /usr/include/qt5/QtGui/qtextlayout.h /usr/include/qt5/QtGui/qevent.h \
+ /usr/include/qt5/QtGui/qvector2d.h /usr/include/qt5/QtGui/qtouchdevice.h \
+ /usr/include/qt5/QtGui/qtextformat.h /usr/include/qt5/QtGui/qpen.h \
  /usr/include/qt5/QtGui/qtextoption.h /usr/include/qt5/QtGui/qglyphrun.h \
  /usr/include/qt5/QtGui/qrawfont.h /usr/include/qt5/QtGui/qfontdatabase.h \
  /usr/include/qt5/QtGui/qtextcursor.h \
- /usr/include/qt5/QtGui/qtextdocument.h /usr/include/qt5/QtGui/qpalette.h \
+ /usr/include/qt5/QtGui/qtextdocument.h \
  /usr/include/qt5/QtGui/qaccessible.h \
  /usr/include/qt5/QtGui/qaccessiblebridge.h \
  /usr/include/qt5/QtCore/qfactoryinterface.h \
@@ -447,8 +478,7 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtGui/qbackingstore.h /usr/include/qt5/QtGui/qwindow.h \
  /usr/include/qt5/QtCore/QEvent /usr/include/qt5/QtCore/QMargins \
  /usr/include/qt5/QtCore/QRect /usr/include/qt5/QtGui/qsurface.h \
- /usr/include/qt5/QtGui/qsurfaceformat.h /usr/include/qt5/QtGui/qicon.h \
- /usr/include/qt5/QtGui/qcursor.h /usr/include/qt5/QtGui/qbitmap.h \
+ /usr/include/qt5/QtGui/qsurfaceformat.h /usr/include/qt5/QtGui/qbitmap.h \
  /usr/include/qt5/QtGui/qbrush.h /usr/include/qt5/QtGui/qclipboard.h \
  /usr/include/qt5/QtGui/qcolor.h /usr/include/qt5/QtGui/qcolorspace.h \
  /usr/include/qt5/QtGui/qcolortransform.h \
@@ -514,7 +544,6 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtGui/qpagelayout.h /usr/include/qt5/QtGui/qpagesize.h \
  /usr/include/qt5/QtGui/qpagelayout.h /usr/include/qt5/QtGui/qpagesize.h \
  /usr/include/qt5/QtGui/qpaintengine.h /usr/include/qt5/QtGui/qpainter.h \
- /usr/include/qt5/QtGui/qfontinfo.h /usr/include/qt5/QtGui/qfontmetrics.h \
  /usr/include/qt5/QtGui/qpainter.h /usr/include/qt5/QtGui/qpainterpath.h \
  /usr/include/qt5/QtGui/qpalette.h /usr/include/qt5/QtGui/qpdfwriter.h \
  /usr/include/qt5/QtGui/qpagedpaintdevice.h /usr/include/qt5/QtGui/qpen.h \
@@ -549,24 +578,9 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtGui/qwindowdefs.h \
  /usr/include/qt5/QtGui/qtguiversion.h \
  /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
- /usr/include/qt5/QtWidgets/qtwidgets-config.h \
  /usr/include/qt5/QtWidgets/qabstractbutton.h \
- /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
- /usr/include/qt5/QtWidgets/qwidget.h \
- /usr/include/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/qt5/QtWidgets/qabstractitemdelegate.h \
- /usr/include/qt5/QtWidgets/qstyleoption.h \
- /usr/include/qt5/QtWidgets/qabstractspinbox.h \
- /usr/include/qt5/QtGui/qvalidator.h /usr/include/qt5/QtWidgets/qslider.h \
- /usr/include/qt5/QtWidgets/qabstractslider.h \
- /usr/include/qt5/QtWidgets/qstyle.h /usr/include/qt5/QtWidgets/qtabbar.h \
- /usr/include/qt5/QtWidgets/qtabwidget.h \
- /usr/include/qt5/QtWidgets/qrubberband.h \
- /usr/include/qt5/QtWidgets/qframe.h \
  /usr/include/qt5/QtWidgets/qabstractitemview.h \
- /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt5/QtCore/qitemselectionmodel.h \
- /usr/include/qt5/QtWidgets/qabstractitemdelegate.h \
  /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
  /usr/include/qt5/QtWidgets/qabstractslider.h \
  /usr/include/qt5/QtWidgets/qabstractspinbox.h \
@@ -591,7 +605,6 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtWidgets/qdialog.h \
  /usr/include/qt5/QtWidgets/qcolormap.h \
  /usr/include/qt5/QtWidgets/qcolumnview.h \
- /usr/include/qt5/QtWidgets/qabstractitemview.h \
  /usr/include/qt5/QtWidgets/qcombobox.h \
  /usr/include/qt5/QtWidgets/qcommandlinkbutton.h \
  /usr/include/qt5/QtWidgets/qpushbutton.h \
@@ -668,7 +681,7 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtWidgets/qmessagebox.h \
  /usr/include/qt5/QtWidgets/qmouseeventtransition.h \
  /usr/include/qt5/QtWidgets/qopenglwidget.h \
- /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h \
+ /usr/include/qt5/QtWidgets/QWidget \
  /usr/include/qt5/QtWidgets/qplaintextedit.h \
  /usr/include/qt5/QtWidgets/qtextedit.h \
  /usr/include/qt5/QtGui/qabstracttextdocumentlayout.h \
@@ -703,8 +716,6 @@ CMakeFiles/userEmulator.dir/userEmulator_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtWidgets/qstyleplugin.h \
  /usr/include/qt5/QtWidgets/qsystemtrayicon.h \
  /usr/include/qt5/QtWidgets/qtabbar.h \
- /usr/include/qt5/QtWidgets/qtableview.h \
- /usr/include/qt5/QtWidgets/qtablewidget.h \
  /usr/include/qt5/QtWidgets/qtableview.h \
  /usr/include/qt5/QtWidgets/qtabwidget.h \
  /usr/include/qt5/QtWidgets/qtextbrowser.h \
