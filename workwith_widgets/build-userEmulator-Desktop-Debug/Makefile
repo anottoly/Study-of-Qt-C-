@@ -142,6 +142,30 @@ userEmulator_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/userEmulator_autogen.dir/build.make CMakeFiles/userEmulator_autogen.dir/build
 .PHONY : userEmulator_autogen/fast
 
+errorwidget.o: errorwidget.cpp.o
+.PHONY : errorwidget.o
+
+# target to build an object file
+errorwidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/userEmulator.dir/build.make CMakeFiles/userEmulator.dir/errorwidget.cpp.o
+.PHONY : errorwidget.cpp.o
+
+errorwidget.i: errorwidget.cpp.i
+.PHONY : errorwidget.i
+
+# target to preprocess a source file
+errorwidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/userEmulator.dir/build.make CMakeFiles/userEmulator.dir/errorwidget.cpp.i
+.PHONY : errorwidget.cpp.i
+
+errorwidget.s: errorwidget.cpp.s
+.PHONY : errorwidget.s
+
+# target to generate assembly for a file
+errorwidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/userEmulator.dir/build.make CMakeFiles/userEmulator.dir/errorwidget.cpp.s
+.PHONY : errorwidget.cpp.s
+
 graphwidget.o: graphwidget.cpp.o
 .PHONY : graphwidget.o
 
@@ -272,6 +296,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... userEmulator_autogen"
 	@echo "... userEmulator"
+	@echo "... errorwidget.o"
+	@echo "... errorwidget.i"
+	@echo "... errorwidget.s"
 	@echo "... graphwidget.o"
 	@echo "... graphwidget.i"
 	@echo "... graphwidget.s"

@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/userEmulator_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/userEmulator_autogen.dir/ParseCache.txt"
   "userEmulator_autogen"
+  "CMakeFiles/userEmulator.dir/errorwidget.cpp.o"
+  "CMakeFiles/userEmulator.dir/errorwidget.cpp.o.d"
   "CMakeFiles/userEmulator.dir/graphwidget.cpp.o"
   "CMakeFiles/userEmulator.dir/graphwidget.cpp.o.d"
   "CMakeFiles/userEmulator.dir/loginwindow.cpp.o"

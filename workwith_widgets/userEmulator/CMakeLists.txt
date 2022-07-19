@@ -25,6 +25,9 @@ set(PROJECT_SOURCES
         graphwidget.ui
         graphwidget.cpp
         graphwidget.h
+        errorwidget.ui
+        errorwidget.cpp
+        errorwidget.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
