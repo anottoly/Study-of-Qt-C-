@@ -7,7 +7,7 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class LoginWindow; }
 QT_END_NAMESPACE
 
-class loginWindow : public QWidget
+class loginWindow : public QMainWindow
 {
     Q_OBJECT
     Ui::LoginWindow *ui;

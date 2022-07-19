@@ -34,12 +34,13 @@ public:
     QDialogButtonBox *buttonBox;
     QMenuBar *menubar;
     QToolBar *toolBar;
+    QToolBar *toolBar_2;
 
     void setupUi(QMainWindow *LoginWindow)
     {
         if (LoginWindow->objectName().isEmpty())
             LoginWindow->setObjectName(QString::fromUtf8("LoginWindow"));
-        LoginWindow->resize(255, 161);
+        LoginWindow->resize(255, 167);
         centralwidget = new QWidget(LoginWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         gridLayout = new QGridLayout(centralwidget);
@@ -78,6 +79,9 @@ public:
         toolBar = new QToolBar(LoginWindow);
         toolBar->setObjectName(QString::fromUtf8("toolBar"));
         LoginWindow->addToolBar(Qt::TopToolBarArea, toolBar);
+        toolBar_2 = new QToolBar(LoginWindow);
+        toolBar_2->setObjectName(QString::fromUtf8("toolBar_2"));
+        LoginWindow->addToolBar(Qt::TopToolBarArea, toolBar_2);
 #if QT_CONFIG(shortcut)
         usrLabel->setBuddy(lineEdit);
         passLabel->setBuddy(lineEdit_2);
@@ -94,6 +98,7 @@ public:
         usrLabel->setText(QCoreApplication::translate("LoginWindow", "Username", nullptr));
         passLabel->setText(QCoreApplication::translate("LoginWindow", "Password", nullptr));
         toolBar->setWindowTitle(QCoreApplication::translate("LoginWindow", "toolBar", nullptr));
+        toolBar_2->setWindowTitle(QCoreApplication::translate("LoginWindow", "toolBar_2", nullptr));
     } // retranslateUi
 
 };

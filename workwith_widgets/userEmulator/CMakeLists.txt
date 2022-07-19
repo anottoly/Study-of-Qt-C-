@@ -22,6 +22,9 @@ set(PROJECT_SOURCES
         loginwindow.ui
         loginwindow.cpp
         loginwindow.h
+        graphwidget.ui
+        graphwidget.cpp
+        graphwidget.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

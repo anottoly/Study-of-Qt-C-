@@ -79,6 +79,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/graphwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_graphwidget.cpp",
+			null
+		],
+		[
 			"/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/loginwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_loginwindow.cpp",
@@ -142,6 +148,11 @@
 	"SETTINGS_FILE" : "/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/CMakeFiles/userEmulator_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/graphwidget.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/loginwindow.cpp",
 			"MU",
