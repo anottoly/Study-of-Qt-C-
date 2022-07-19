@@ -7,7 +7,7 @@ ErrorWidget::ErrorWidget(QString *str, QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::errorwidget())
 {
-
+    ui->setupUi(this);
 }
 
 ErrorWidget::~ErrorWidget()

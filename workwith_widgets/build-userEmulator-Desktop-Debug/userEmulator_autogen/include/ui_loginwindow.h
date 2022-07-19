@@ -27,11 +27,11 @@ class Ui_LoginWindow
 public:
     QWidget *centralwidget;
     QGridLayout *gridLayout;
-    QLabel *usrLabel;
     QLineEdit *lineEdit;
-    QLineEdit *lineEdit_2;
-    QLabel *passLabel;
     QDialogButtonBox *buttonBox;
+    QLabel *passLabel;
+    QLineEdit *lineEdit_2;
+    QLabel *usrLabel;
     QMenuBar *menubar;
     QToolBar *toolBar;
     QToolBar *toolBar_2;
@@ -45,31 +45,31 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         gridLayout = new QGridLayout(centralwidget);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        usrLabel = new QLabel(centralwidget);
-        usrLabel->setObjectName(QString::fromUtf8("usrLabel"));
-
-        gridLayout->addWidget(usrLabel, 0, 0, 1, 1);
-
         lineEdit = new QLineEdit(centralwidget);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
 
         gridLayout->addWidget(lineEdit, 0, 1, 1, 2);
-
-        lineEdit_2 = new QLineEdit(centralwidget);
-        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
-
-        gridLayout->addWidget(lineEdit_2, 1, 1, 1, 2);
-
-        passLabel = new QLabel(centralwidget);
-        passLabel->setObjectName(QString::fromUtf8("passLabel"));
-
-        gridLayout->addWidget(passLabel, 2, 0, 1, 2);
 
         buttonBox = new QDialogButtonBox(centralwidget);
         buttonBox->setObjectName(QString::fromUtf8("buttonBox"));
         buttonBox->setStandardButtons(QDialogButtonBox::Cancel|QDialogButtonBox::Ok);
 
         gridLayout->addWidget(buttonBox, 3, 2, 1, 1);
+
+        passLabel = new QLabel(centralwidget);
+        passLabel->setObjectName(QString::fromUtf8("passLabel"));
+
+        gridLayout->addWidget(passLabel, 2, 0, 1, 2);
+
+        lineEdit_2 = new QLineEdit(centralwidget);
+        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+
+        gridLayout->addWidget(lineEdit_2, 1, 1, 1, 2);
+
+        usrLabel = new QLabel(centralwidget);
+        usrLabel->setObjectName(QString::fromUtf8("usrLabel"));
+
+        gridLayout->addWidget(usrLabel, 0, 0, 1, 1);
 
         LoginWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(LoginWindow);
@@ -83,8 +83,8 @@ public:
         toolBar_2->setObjectName(QString::fromUtf8("toolBar_2"));
         LoginWindow->addToolBar(Qt::TopToolBarArea, toolBar_2);
 #if QT_CONFIG(shortcut)
-        usrLabel->setBuddy(lineEdit);
         passLabel->setBuddy(lineEdit_2);
+        usrLabel->setBuddy(lineEdit);
 #endif // QT_CONFIG(shortcut)
 
         retranslateUi(LoginWindow);
@@ -95,8 +95,8 @@ public:
     void retranslateUi(QMainWindow *LoginWindow)
     {
         LoginWindow->setWindowTitle(QCoreApplication::translate("LoginWindow", "MainWindow", nullptr));
-        usrLabel->setText(QCoreApplication::translate("LoginWindow", "Username", nullptr));
         passLabel->setText(QCoreApplication::translate("LoginWindow", "Password", nullptr));
+        usrLabel->setText(QCoreApplication::translate("LoginWindow", "Username", nullptr));
         toolBar->setWindowTitle(QCoreApplication::translate("LoginWindow", "toolBar", nullptr));
         toolBar_2->setWindowTitle(QCoreApplication::translate("LoginWindow", "toolBar_2", nullptr));
     } // retranslateUi

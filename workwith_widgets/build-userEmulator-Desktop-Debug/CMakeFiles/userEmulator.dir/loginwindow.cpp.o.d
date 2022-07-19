@@ -736,4 +736,8 @@ CMakeFiles/userEmulator.dir/loginwindow.cpp.o: \
  /usr/include/qt5/QtWidgets/QMainWindow \
  /usr/include/qt5/QtWidgets/QMenuBar /usr/include/qt5/QtWidgets/QToolBar \
  /usr/include/qt5/QtWidgets/QWidget \
- /usr/include/qt5/QtWidgets/QApplication
+ /usr/include/qt5/QtWidgets/QApplication \
+ /usr/include/qt5/QtWidgets/QPushButton \
+ /usr/include/qt5/QtWidgets/QHBoxLayout \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/graphwidget.h \
+ /usr/include/qt5/QtWidgets/QTableWidget

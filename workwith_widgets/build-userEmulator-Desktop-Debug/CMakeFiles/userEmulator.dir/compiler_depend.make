@@ -1694,7 +1694,9 @@ CMakeFiles/userEmulator.dir/loginwindow.cpp.o: /home/localadmin/Develop/Study-of
   /usr/include/qt5/QtWidgets/QMenuBar \
   /usr/include/qt5/QtWidgets/QToolBar \
   /usr/include/qt5/QtWidgets/QWidget \
-  /usr/include/qt5/QtWidgets/QApplication
+  /usr/include/qt5/QtWidgets/QApplication \
+  /usr/include/qt5/QtWidgets/QPushButton \
+  /usr/include/qt5/QtWidgets/QHBoxLayout
 
 CMakeFiles/userEmulator.dir/main.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/main.cpp \
   /usr/include/stdc-predef.h \
@@ -4886,6 +4888,8 @@ userEmulator_autogen/EWIEGA46WW/moc_graphwidget.cpp:
 /usr/include/c++/10/bits/stl_algo.h:
 
 /usr/include/bits/types/sigset_t.h:
+
+/usr/include/qt5/QtWidgets/QHBoxLayout:
 
 /usr/include/c++/10/x86_64-alt-linux/bits/error_constants.h:
 

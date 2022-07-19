@@ -7,7 +7,8 @@ GraphWidget::GraphWidget(QWidget *parent )
     : QWidget(parent)
     , ui(new Ui::graphwidget())
 {
-
+    ui->setupUi(this);
+    ui->table->setColumnWidth(column_quan, line_quan);
 }
 
 void GraphWidget::addnewline()

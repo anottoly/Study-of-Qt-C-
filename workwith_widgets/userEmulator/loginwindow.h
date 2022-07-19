@@ -11,10 +11,11 @@ class loginWindow : public QMainWindow
 {
     Q_OBJECT
     Ui::LoginWindow *ui;
+    QPushButton *click;
 
 public:
     loginWindow(QWidget *parent = nullptr);
-
+    void clicked();
     ~loginWindow();
 };
 
