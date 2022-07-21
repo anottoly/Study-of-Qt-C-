@@ -65,5 +65,50 @@ void QTestStudy::guiTestUpdate_data()
     QTest::newRow("Oops, it's okay...") << list2 << "xyz";
 }
 
+void QTestStudy::testBenchmark()
+{
+    QString one = QLatin1String("Test text");
+    QString two = QLatin1String("Test text");
+
+    QCOMPARE(two.localeAwareCompare(one), 0);
+
+    QBENCHMARK
+    {
+        one.localeAwareCompare(two);
+    }
+}
+
+void QTestStudy::testString()
+{
+    QFETCH(bool, useLocalCompare);
+    QString one = QLatin1String("Test text");
+    QString two = QLatin1String("Test text");
+    int result;
+
+    if (useLocalCompare)
+    {
+        QBENCHMARK
+        {
+            result = one.localeAwareCompare(two);
+        }
+    }
+    else
+    {
+        QBENCHMARK
+        {
+            result = (one == two);
+        }
+    }
+    Q_UNUSED(result);
+}
+
+void QTestStudy::testString_data()
+{
+    QTest::addColumn<bool>("useLocalCompare");
+
+    QTest::newRow("local aware compare") << true;
+    QTest::newRow("standart compare") << false;
+}
+
 QTEST_MAIN(QTestStudy);
 #include "qteststudy.moc"

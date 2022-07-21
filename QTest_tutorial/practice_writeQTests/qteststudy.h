@@ -14,6 +14,9 @@ private slots:
     void guiTest();
     void guiTestUpdate();
     void guiTestUpdate_data();
+    void testBenchmark();
+    void testString();
+    void testString_data();
 };
 
 #endif // QTESTSTUDY_H
