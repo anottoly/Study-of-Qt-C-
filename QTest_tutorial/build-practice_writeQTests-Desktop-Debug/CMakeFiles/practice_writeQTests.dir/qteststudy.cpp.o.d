@@ -271,4 +271,5 @@ CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o: \
  /usr/include/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/qt5/QtCore/QMetaEnum /usr/include/qt5/QtCore/qmetaobject.h \
  /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/QString \
- /usr/include/qt5/QtCore/qstring.h
+ /usr/include/qt5/QtCore/qstring.h \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/include/qteststudy.moc
