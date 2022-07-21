@@ -274,5 +274,5 @@ CMakeFiles/practice_writeQTests.dir/main.cpp.o: \
  /usr/include/qt5/QtWidgets/QSizePolicy \
  /usr/include/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/qt5/QtCore/QMetaEnum /usr/include/qt5/QtCore/qmetaobject.h \
- /usr/include/qt5/QtWidgets/QApplication \
+ /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtWidgets/QApplication \
  /usr/include/qt5/QtWidgets/qapplication.h

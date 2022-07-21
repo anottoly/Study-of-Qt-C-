@@ -83,24 +83,10 @@ CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilatio
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/mocs_compilation.cpp -o CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/practice_writeQTests.dir/main.cpp.o: CMakeFiles/practice_writeQTests.dir/flags.make
-CMakeFiles/practice_writeQTests.dir/main.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/main.cpp
-CMakeFiles/practice_writeQTests.dir/main.cpp.o: CMakeFiles/practice_writeQTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/practice_writeQTests.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice_writeQTests.dir/main.cpp.o -MF CMakeFiles/practice_writeQTests.dir/main.cpp.o.d -o CMakeFiles/practice_writeQTests.dir/main.cpp.o -c /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/main.cpp
-
-CMakeFiles/practice_writeQTests.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice_writeQTests.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/main.cpp > CMakeFiles/practice_writeQTests.dir/main.cpp.i
-
-CMakeFiles/practice_writeQTests.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice_writeQTests.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/main.cpp -o CMakeFiles/practice_writeQTests.dir/main.cpp.s
-
 CMakeFiles/practice_writeQTests.dir/widget.cpp.o: CMakeFiles/practice_writeQTests.dir/flags.make
 CMakeFiles/practice_writeQTests.dir/widget.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/widget.cpp
 CMakeFiles/practice_writeQTests.dir/widget.cpp.o: CMakeFiles/practice_writeQTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/practice_writeQTests.dir/widget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/practice_writeQTests.dir/widget.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice_writeQTests.dir/widget.cpp.o -MF CMakeFiles/practice_writeQTests.dir/widget.cpp.o.d -o CMakeFiles/practice_writeQTests.dir/widget.cpp.o -c /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/widget.cpp
 
 CMakeFiles/practice_writeQTests.dir/widget.cpp.i: cmake_force
@@ -114,7 +100,7 @@ CMakeFiles/practice_writeQTests.dir/widget.cpp.s: cmake_force
 CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o: CMakeFiles/practice_writeQTests.dir/flags.make
 CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp
 CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o: CMakeFiles/practice_writeQTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o -MF CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o.d -o CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o -c /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp
 
 CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.i: cmake_force
@@ -128,7 +114,6 @@ CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.s: cmake_force
 # Object files for target practice_writeQTests
 practice_writeQTests_OBJECTS = \
 "CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/practice_writeQTests.dir/main.cpp.o" \
 "CMakeFiles/practice_writeQTests.dir/widget.cpp.o" \
 "CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o"
 
@@ -136,7 +121,6 @@ practice_writeQTests_OBJECTS = \
 practice_writeQTests_EXTERNAL_OBJECTS =
 
 practice_writeQTests: CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.o
-practice_writeQTests: CMakeFiles/practice_writeQTests.dir/main.cpp.o
 practice_writeQTests: CMakeFiles/practice_writeQTests.dir/widget.cpp.o
 practice_writeQTests: CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o
 practice_writeQTests: CMakeFiles/practice_writeQTests.dir/build.make
@@ -145,7 +129,7 @@ practice_writeQTests: /usr/lib64/libQt5Test.so.5.15.2
 practice_writeQTests: /usr/lib64/libQt5Gui.so.5.15.2
 practice_writeQTests: /usr/lib64/libQt5Core.so.5.15.2
 practice_writeQTests: CMakeFiles/practice_writeQTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable practice_writeQTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable practice_writeQTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/practice_writeQTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

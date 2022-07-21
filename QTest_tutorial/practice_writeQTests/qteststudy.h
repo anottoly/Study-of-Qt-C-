@@ -1,12 +1,13 @@
 #ifndef QTESTSTUDY_H
 #define QTESTSTUDY_H
 #include <QTest>
+#include <QObject>
 
-
-class QTestStudy
+class QTestStudy : public QObject
 {
-public:
-    QTestStudy();
+    Q_OBJECT
+private slots:
+    void toUpper();
 };
 
 #endif // QTESTSTUDY_H

@@ -157,11 +157,6 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/main.cpp",
-			"MU",
-			null
-		],
-		[
 			"/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp",
 			"MU",
 			null

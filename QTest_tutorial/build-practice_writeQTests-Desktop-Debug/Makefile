@@ -142,30 +142,6 @@ practice_writeQTests_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice_writeQTests_autogen.dir/build.make CMakeFiles/practice_writeQTests_autogen.dir/build
 .PHONY : practice_writeQTests_autogen/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice_writeQTests.dir/build.make CMakeFiles/practice_writeQTests.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice_writeQTests.dir/build.make CMakeFiles/practice_writeQTests.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice_writeQTests.dir/build.make CMakeFiles/practice_writeQTests.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 practice_writeQTests_autogen/mocs_compilation.o: practice_writeQTests_autogen/mocs_compilation.cpp.o
 .PHONY : practice_writeQTests_autogen/mocs_compilation.o
 
@@ -248,9 +224,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... practice_writeQTests_autogen"
 	@echo "... practice_writeQTests"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... practice_writeQTests_autogen/mocs_compilation.o"
 	@echo "... practice_writeQTests_autogen/mocs_compilation.i"
 	@echo "... practice_writeQTests_autogen/mocs_compilation.s"

@@ -18,7 +18,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Test)
 
 
 set(PROJECT_SOURCES
-        main.cpp
+        #main.cpp
         widget.cpp
         widget.h
         widget.ui

@@ -1,7 +1,7 @@
 CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.o: \
  /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/EWIEGA46WW/moc_widget.cpp \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/EWIEGA46WW/moc_qteststudy.cpp \
  /usr/include/c++/10/memory /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/c++/10/x86_64-alt-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-alt-linux/bits/os_defines.h \
@@ -95,10 +95,9 @@ CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilatio
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/cstdint \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
- /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/EWIEGA46WW/../../../practice_writeQTests/widget.h \
- /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h \
- /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
- /usr/include/qt5/QtGui/qtguiglobal.h /usr/include/qt5/QtCore/qglobal.h \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/EWIEGA46WW/../../../practice_writeQTests/qteststudy.h \
+ /usr/include/qt5/QtTest/QTest /usr/include/qt5/QtTest/qtest.h \
+ /usr/include/qt5/QtTest/qttestglobal.h /usr/include/qt5/QtCore/qglobal.h \
  /usr/include/c++/10/cstddef /usr/include/assert.h \
  /usr/include/qt5/QtCore/qconfig.h \
  /usr/include/qt5/QtCore/qtcore-config.h \
@@ -135,18 +134,13 @@ CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilatio
  /usr/include/qt5/QtCore/qglobalstatic.h \
  /usr/include/qt5/QtCore/qnumeric.h \
  /usr/include/qt5/QtCore/qversiontagging.h \
- /usr/include/qt5/QtGui/qtgui-config.h \
- /usr/include/qt5/QtWidgets/qtwidgets-config.h \
- /usr/include/qt5/QtGui/qwindowdefs.h \
- /usr/include/qt5/QtCore/qobjectdefs.h \
- /usr/include/qt5/QtCore/qnamespace.h \
- /usr/include/qt5/QtCore/qobjectdefs_impl.h \
- /usr/include/qt5/QtCore/qobject.h /usr/include/qt5/QtCore/qstring.h \
+ /usr/include/qt5/QtTest/qttestlib-config.h \
+ /usr/include/qt5/QtTest/qtestcase.h /usr/include/qt5/QtCore/qstring.h \
  /usr/include/qt5/QtCore/qchar.h /usr/include/qt5/QtCore/qbytearray.h \
- /usr/include/qt5/QtCore/qrefcount.h /usr/include/qt5/QtCore/qarraydata.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/10/stdlib.h /usr/include/c++/10/string \
- /usr/include/c++/10/bits/char_traits.h \
+ /usr/include/qt5/QtCore/qrefcount.h /usr/include/qt5/QtCore/qnamespace.h \
+ /usr/include/qt5/QtCore/qarraydata.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/10/stdlib.h \
+ /usr/include/c++/10/string /usr/include/c++/10/bits/char_traits.h \
  /usr/include/c++/10/bits/localefwd.h \
  /usr/include/c++/10/x86_64-alt-linux/bits/c++locale.h \
  /usr/include/c++/10/clocale /usr/include/locale.h \
@@ -176,15 +170,24 @@ CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilatio
  /usr/include/c++/10/stdexcept /usr/include/c++/10/bits/streambuf.tcc \
  /usr/include/qt5/QtCore/qstringliteral.h \
  /usr/include/qt5/QtCore/qstringalgorithms.h \
- /usr/include/qt5/QtCore/qstringview.h /usr/include/qt5/QtCore/qlist.h \
+ /usr/include/qt5/QtCore/qstringview.h \
+ /usr/include/qt5/QtCore/qmetatype.h \
+ /usr/include/qt5/QtCore/qvarlengtharray.h \
+ /usr/include/qt5/QtCore/qcontainerfwd.h \
  /usr/include/qt5/QtCore/qalgorithms.h \
- /usr/include/qt5/QtCore/qiterator.h \
+ /usr/include/qt5/QtCore/qcontainertools_impl.h \
  /usr/include/qt5/QtCore/qhashfunctions.h /usr/include/qt5/QtCore/qpair.h \
  /usr/include/c++/10/numeric /usr/include/c++/10/bits/stl_numeric.h \
  /usr/include/c++/10/pstl/glue_numeric_defs.h \
- /usr/include/qt5/QtCore/qvector.h \
- /usr/include/qt5/QtCore/qcontainertools_impl.h /usr/include/c++/10/list \
+ /usr/include/qt5/QtCore/qobjectdefs.h \
+ /usr/include/qt5/QtCore/qobjectdefs_impl.h /usr/include/c++/10/list \
  /usr/include/c++/10/bits/stl_list.h /usr/include/c++/10/bits/list.tcc \
+ /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
+ /usr/include/c++/10/bits/stl_map.h \
+ /usr/include/c++/10/bits/stl_multimap.h \
+ /usr/include/qt5/QtCore/qmetaobject.h /usr/include/qt5/QtCore/qvariant.h \
+ /usr/include/qt5/QtCore/qlist.h /usr/include/qt5/QtCore/qiterator.h \
+ /usr/include/qt5/QtCore/qvector.h \
  /usr/lib64/gcc/x86_64-alt-linux/10/include/limits.h \
  /usr/lib64/gcc/x86_64-alt-linux/10/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -192,30 +195,82 @@ CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilatio
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h /usr/include/qt5/QtCore/qbytearraylist.h \
  /usr/include/qt5/QtCore/qstringlist.h /usr/include/qt5/QtCore/qregexp.h \
- /usr/include/qt5/QtCore/qstringmatcher.h \
+ /usr/include/qt5/QtCore/qstringmatcher.h /usr/include/qt5/QtCore/qmap.h \
+ /usr/include/qt5/QtCore/qhash.h /usr/include/qt5/QtCore/qobject.h \
  /usr/include/qt5/QtCore/qscopedpointer.h \
- /usr/include/qt5/QtCore/qmetatype.h \
- /usr/include/qt5/QtCore/qvarlengtharray.h \
- /usr/include/qt5/QtCore/qcontainerfwd.h /usr/include/c++/10/map \
- /usr/include/c++/10/bits/stl_tree.h /usr/include/c++/10/bits/stl_map.h \
- /usr/include/c++/10/bits/stl_multimap.h \
  /usr/include/qt5/QtCore/qobject_impl.h /usr/include/c++/10/chrono \
  /usr/include/c++/10/ratio /usr/include/c++/10/ctime \
- /usr/include/c++/10/bits/parse_numbers.h \
- /usr/include/qt5/QtCore/qmargins.h /usr/include/qt5/QtGui/qpaintdevice.h \
- /usr/include/qt5/QtCore/qrect.h /usr/include/qt5/QtCore/qsize.h \
- /usr/include/qt5/QtCore/qpoint.h /usr/include/qt5/QtGui/qpalette.h \
- /usr/include/qt5/QtGui/qcolor.h /usr/include/qt5/QtGui/qrgb.h \
- /usr/include/qt5/QtGui/qrgba64.h /usr/include/qt5/QtGui/qbrush.h \
- /usr/include/qt5/QtGui/qmatrix.h /usr/include/qt5/QtGui/qpolygon.h \
- /usr/include/qt5/QtGui/qregion.h /usr/include/qt5/QtCore/qdatastream.h \
- /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtCore/qline.h \
- /usr/include/qt5/QtGui/qtransform.h /usr/include/qt5/QtGui/qimage.h \
- /usr/include/qt5/QtGui/qpixelformat.h /usr/include/qt5/QtGui/qpixmap.h \
+ /usr/include/c++/10/bits/parse_numbers.h /usr/include/c++/10/variant \
  /usr/include/qt5/QtCore/qsharedpointer.h \
- /usr/include/qt5/QtCore/qshareddata.h /usr/include/qt5/QtCore/qhash.h \
+ /usr/include/qt5/QtCore/qshareddata.h \
  /usr/include/qt5/QtCore/qsharedpointer_impl.h \
- /usr/include/qt5/QtGui/qfont.h /usr/include/qt5/QtGui/qfontmetrics.h \
- /usr/include/qt5/QtGui/qfontinfo.h \
+ /usr/include/qt5/QtCore/qtemporarydir.h /usr/include/qt5/QtCore/qdir.h \
+ /usr/include/qt5/QtCore/qfileinfo.h /usr/include/qt5/QtCore/qfile.h \
+ /usr/include/qt5/QtCore/qfiledevice.h \
+ /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtTest/qtestdata.h \
+ /usr/include/qt5/QtTest/qbenchmark.h \
+ /usr/include/qt5/QtTest/qbenchmarkmetric.h \
+ /usr/include/qt5/QtCore/qbitarray.h \
+ /usr/include/qt5/QtCore/qcborcommon.h /usr/include/qt5/QtCore/qdebug.h \
+ /usr/include/qt5/QtCore/qtextstream.h /usr/include/qt5/QtCore/qlocale.h \
+ /usr/include/qt5/QtCore/qset.h \
+ /usr/include/qt5/QtCore/qcontiguouscache.h \
+ /usr/include/qt5/QtCore/qdatetime.h \
+ /usr/include/qt5/QtCore/qabstractitemmodel.h \
+ /usr/include/qt5/QtCore/qurl.h /usr/include/qt5/QtCore/quuid.h \
+ /usr/include/qt5/QtCore/qpoint.h /usr/include/qt5/QtCore/qsize.h \
+ /usr/include/qt5/QtCore/qmargins.h /usr/include/qt5/QtCore/qrect.h \
+ /usr/include/qt5/QtTest/qtestsystem.h \
+ /usr/include/qt5/QtCore/qtestsupport_core.h \
+ /usr/include/qt5/QtCore/qcoreapplication.h \
+ /usr/include/qt5/QtCore/qcoreevent.h \
+ /usr/include/qt5/QtCore/qeventloop.h \
+ /usr/include/qt5/QtCore/qdeadlinetimer.h \
+ /usr/include/qt5/QtCore/qelapsedtimer.h \
+ /usr/include/qt5/QtGui/qtestsupport_gui.h \
+ /usr/include/qt5/QtGui/qtguiglobal.h \
+ /usr/include/qt5/QtGui/qtgui-config.h \
+ /usr/include/qt5/QtWidgets/qtestsupport_widgets.h \
+ /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/qt5/QtWidgets/qtwidgets-config.h \
+ /usr/include/qt5/QtTest/qtest_widgets.h \
+ /usr/include/qt5/QtTest/qtest_gui.h \
+ /usr/include/qt5/QtTest/qtestassert.h /usr/include/qt5/QtTest/qtest.h \
+ /usr/include/qt5/QtTest/qtestevent.h \
+ /usr/include/qt5/QtTest/qtestkeyboard.h \
+ /usr/include/qt5/QtTest/qtestspontaneevent.h \
+ /usr/include/qt5/QtCore/qpointer.h \
+ /usr/include/qt5/QtGui/qguiapplication.h \
+ /usr/include/qt5/QtGui/qwindowdefs.h \
+ /usr/include/qt5/QtGui/qinputmethod.h /usr/include/qt5/QtGui/qwindow.h \
+ /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/qobject.h \
+ /usr/include/qt5/QtCore/QEvent /usr/include/qt5/QtCore/qcoreevent.h \
+ /usr/include/qt5/QtCore/QMargins /usr/include/qt5/QtCore/qmargins.h \
+ /usr/include/qt5/QtCore/QRect /usr/include/qt5/QtCore/qrect.h \
+ /usr/include/qt5/QtGui/qsurface.h \
+ /usr/include/qt5/QtGui/qsurfaceformat.h /usr/include/qt5/QtGui/qicon.h \
+ /usr/include/qt5/QtGui/qpixmap.h /usr/include/qt5/QtGui/qpaintdevice.h \
+ /usr/include/qt5/QtGui/qcolor.h /usr/include/qt5/QtGui/qrgb.h \
+ /usr/include/qt5/QtGui/qrgba64.h /usr/include/qt5/QtGui/qimage.h \
+ /usr/include/qt5/QtGui/qpixelformat.h \
+ /usr/include/qt5/QtGui/qtransform.h /usr/include/qt5/QtGui/qmatrix.h \
+ /usr/include/qt5/QtGui/qpolygon.h /usr/include/qt5/QtGui/qregion.h \
+ /usr/include/qt5/QtCore/qdatastream.h /usr/include/qt5/QtCore/qline.h \
+ /usr/include/qt5/QtGui/qcursor.h /usr/include/qt5/QtGui/qevent.h \
+ /usr/include/qt5/QtGui/qkeysequence.h /usr/include/qt5/QtGui/qvector2d.h \
+ /usr/include/qt5/QtGui/qtouchdevice.h \
+ /usr/include/qt5/QtWidgets/qwidget.h /usr/include/qt5/QtGui/qpalette.h \
+ /usr/include/qt5/QtGui/qbrush.h /usr/include/qt5/QtGui/qfont.h \
+ /usr/include/qt5/QtGui/qfontmetrics.h /usr/include/qt5/QtGui/qfontinfo.h \
  /usr/include/qt5/QtWidgets/qsizepolicy.h \
- /usr/include/qt5/QtGui/qcursor.h /usr/include/qt5/QtGui/qkeysequence.h
+ /usr/include/qt5/QtWidgets/qapplication.h \
+ /usr/include/qt5/QtTest/qtestmouse.h /usr/include/qt5/QtCore/QDebug \
+ /usr/include/qt5/QtCore/qdebug.h /usr/include/qt5/QtTest/qtesttouch.h \
+ /usr/include/qt5/QtGui/qvector3d.h /usr/include/qt5/QtGui/qvector4d.h \
+ /usr/include/qt5/QtWidgets/QSizePolicy \
+ /usr/include/qt5/QtWidgets/qsizepolicy.h \
+ /usr/include/qt5/QtCore/QMetaEnum /usr/include/qt5/QtCore/qmetaobject.h \
+ /usr/include/qt5/QtCore/QObject \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/EWIEGA46WW/moc_widget.cpp \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/EWIEGA46WW/../../../practice_writeQTests/widget.h \
+ /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h

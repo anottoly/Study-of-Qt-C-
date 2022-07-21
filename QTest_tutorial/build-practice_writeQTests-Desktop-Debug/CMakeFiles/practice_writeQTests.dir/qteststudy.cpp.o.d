@@ -269,4 +269,6 @@ CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o: \
  /usr/include/qt5/QtGui/qvector3d.h /usr/include/qt5/QtGui/qvector4d.h \
  /usr/include/qt5/QtWidgets/QSizePolicy \
  /usr/include/qt5/QtWidgets/qsizepolicy.h \
- /usr/include/qt5/QtCore/QMetaEnum /usr/include/qt5/QtCore/qmetaobject.h
+ /usr/include/qt5/QtCore/QMetaEnum /usr/include/qt5/QtCore/qmetaobject.h \
+ /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/QString \
+ /usr/include/qt5/QtCore/qstring.h

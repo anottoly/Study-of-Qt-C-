@@ -2,8 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/practice_writeQTests_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/practice_writeQTests_autogen.dir/ParseCache.txt"
   "practice_writeQTests_autogen"
-  "CMakeFiles/practice_writeQTests.dir/main.cpp.o"
-  "CMakeFiles/practice_writeQTests.dir/main.cpp.o.d"
   "CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o"
