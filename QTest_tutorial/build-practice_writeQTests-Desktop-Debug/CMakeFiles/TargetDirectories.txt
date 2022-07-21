@@ -1,0 +1,4 @@
+/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles/practice_writeQTests.dir
+/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/CMakeFiles/practice_writeQTests_autogen.dir

@@ -740,4 +740,9 @@ CMakeFiles/userEmulator.dir/loginwindow.cpp.o: \
  /usr/include/qt5/QtWidgets/QPushButton \
  /usr/include/qt5/QtWidgets/QHBoxLayout \
  /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/graphwidget.h \
- /usr/include/qt5/QtWidgets/QTableWidget
+ /usr/include/qt5/QtWidgets/QTableWidget \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/main.cpp \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/mainwindow.h \
+ /usr/include/qt5/QtWidgets/QMainWindow \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/errorwidget.h \
+ /usr/include/qt5/QtCore/QString

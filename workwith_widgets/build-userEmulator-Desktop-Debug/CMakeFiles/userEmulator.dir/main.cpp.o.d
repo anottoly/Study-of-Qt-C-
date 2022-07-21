@@ -731,4 +731,9 @@ CMakeFiles/userEmulator.dir/main.cpp.o: \
  /usr/include/qt5/QtWidgets/qwidgetaction.h \
  /usr/include/qt5/QtWidgets/qwizard.h \
  /usr/include/qt5/QtWidgets/qtwidgetsversion.h \
- /usr/include/qt5/QtGui/QKeyEvent /usr/include/qt5/QtWidgets/QApplication
+ /usr/include/qt5/QtGui/QKeyEvent \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/graphwidget.h \
+ /usr/include/qt5/QtWidgets/QWidget \
+ /usr/include/qt5/QtWidgets/QTableWidget \
+ /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/errorwidget.h \
+ /usr/include/qt5/QtCore/QString /usr/include/qt5/QtWidgets/QApplication

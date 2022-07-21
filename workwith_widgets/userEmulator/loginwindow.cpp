@@ -5,6 +5,7 @@
 #include <QPushButton>
 #include <QHBoxLayout>
 #include "graphwidget.h"
+#include "main.cpp"
 
 loginWindow::loginWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -12,12 +13,12 @@ loginWindow::loginWindow(QWidget *parent)
 
 {
     ui->setupUi(this);
-    connect(ui->buttonBox->button(QDialogButtonBox::Ok), &QPushButton::clicked, this, &loginWindow::clicked);
+    connect(ui->buttonBox->button(QDialogButtonBox::Ok), &QPushButton::clicked, this, &main::clicked);
 }
 
 void loginWindow::clicked()
 {
-    ui->usrLabel->clear();
+
 }
 
 loginWindow::~loginWindow()

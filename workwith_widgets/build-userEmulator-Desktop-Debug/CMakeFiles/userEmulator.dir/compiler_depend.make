@@ -1696,7 +1696,9 @@ CMakeFiles/userEmulator.dir/loginwindow.cpp.o: /home/localadmin/Develop/Study-of
   /usr/include/qt5/QtWidgets/QWidget \
   /usr/include/qt5/QtWidgets/QApplication \
   /usr/include/qt5/QtWidgets/QPushButton \
-  /usr/include/qt5/QtWidgets/QHBoxLayout
+  /usr/include/qt5/QtWidgets/QHBoxLayout \
+  /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/graphwidget.h \
+  /usr/include/qt5/QtWidgets/QTableWidget
 
 CMakeFiles/userEmulator.dir/main.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/main.cpp \
   /usr/include/stdc-predef.h \
@@ -2645,6 +2647,11 @@ CMakeFiles/userEmulator.dir/main.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp
   /usr/include/qt5/QtWidgets/qwizard.h \
   /usr/include/qt5/QtWidgets/qtwidgetsversion.h \
   /usr/include/qt5/QtGui/QKeyEvent \
+  /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/graphwidget.h \
+  /usr/include/qt5/QtWidgets/QWidget \
+  /usr/include/qt5/QtWidgets/QTableWidget \
+  /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/errorwidget.h \
+  /usr/include/qt5/QtCore/QString \
   /usr/include/qt5/QtWidgets/QApplication
 
 CMakeFiles/userEmulator.dir/mainwindow.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/userEmulator/mainwindow.cpp \
