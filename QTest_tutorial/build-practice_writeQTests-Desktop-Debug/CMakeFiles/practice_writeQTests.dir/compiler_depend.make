@@ -397,10 +397,10 @@ CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilatio
   /usr/include/qt5/QtCore/QMetaEnum \
   /usr/include/qt5/QtCore/qmetaobject.h \
   /usr/include/qt5/QtCore/QObject \
-  practice_writeQTests_autogen/EWIEGA46WW/moc_widget.cpp \
-  /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/widget.h \
   /usr/include/qt5/QtWidgets/QWidget \
-  /usr/include/qt5/QtWidgets/qwidget.h
+  /usr/include/qt5/QtWidgets/qwidget.h \
+  practice_writeQTests_autogen/EWIEGA46WW/moc_widget.cpp \
+  /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/widget.h
 
 CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp \
   /usr/include/stdc-predef.h \
@@ -797,8 +797,17 @@ CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o: /home/localadmin/Develop/S
   /usr/include/qt5/QtCore/QMetaEnum \
   /usr/include/qt5/QtCore/qmetaobject.h \
   /usr/include/qt5/QtCore/QObject \
+  /usr/include/qt5/QtWidgets/QWidget \
+  /usr/include/qt5/QtWidgets/qwidget.h \
   /usr/include/qt5/QtCore/QString \
   /usr/include/qt5/QtCore/qstring.h \
+  /usr/include/qt5/QtWidgets/QLineEdit \
+  /usr/include/qt5/QtWidgets/qlineedit.h \
+  /usr/include/qt5/QtWidgets/qframe.h \
+  /usr/include/qt5/QtGui/qtextcursor.h \
+  /usr/include/qt5/QtGui/qtextformat.h \
+  /usr/include/qt5/QtGui/qpen.h \
+  /usr/include/qt5/QtGui/qtextoption.h \
   practice_writeQTests_autogen/include/qteststudy.moc
 
 CMakeFiles/practice_writeQTests.dir/widget.cpp.o: /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/widget.cpp \
@@ -1148,11 +1157,21 @@ practice_writeQTests_autogen/include/ui_widget.h:
 
 /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/widget.cpp:
 
+/usr/include/qt5/QtGui/qtextoption.h:
+
+/usr/include/qt5/QtGui/qtextformat.h:
+
+/usr/include/qt5/QtGui/qtextcursor.h:
+
+/usr/include/qt5/QtWidgets/qframe.h:
+
+/usr/include/qt5/QtWidgets/qlineedit.h:
+
 /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:
 
-/usr/include/qt5/QtWidgets/QWidget:
-
 /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/widget.h:
+
+/usr/include/qt5/QtWidgets/QWidget:
 
 /usr/include/qt5/QtWidgets/QSizePolicy:
 
@@ -1610,6 +1629,8 @@ practice_writeQTests_autogen/EWIEGA46WW/moc_widget.cpp:
 
 /usr/include/c++/10/bits/ranges_uninitialized.h:
 
+/usr/include/qt5/QtWidgets/QLineEdit:
+
 /usr/include/qt5/QtCore/qstringalgorithms.h:
 
 practice_writeQTests_autogen/EWIEGA46WW/moc_qteststudy.cpp:
@@ -1801,6 +1822,8 @@ practice_writeQTests_autogen/mocs_compilation.cpp:
 /usr/include/c++/10/limits:
 
 /usr/include/c++/10/bits/std_function.h:
+
+/usr/include/qt5/QtGui/qpen.h:
 
 /usr/include/bits/types/error_t.h:
 

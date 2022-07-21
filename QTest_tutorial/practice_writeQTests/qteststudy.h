@@ -12,6 +12,8 @@ private slots:
     void toUpperUpdate_data();
     void toUpperUpdate();
     void guiTest();
+    void guiTestUpdate();
+    void guiTestUpdate_data();
 };
 
 #endif // QTESTSTUDY_H

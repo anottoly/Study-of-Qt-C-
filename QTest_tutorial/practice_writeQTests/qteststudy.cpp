@@ -19,6 +19,7 @@ void QTestStudy::toUpperUpdate()
 
 void QTestStudy::toUpperUpdate_data()
 {
+
     QTest::addColumn<QString>("string");
     QTest::addColumn<QString>("result");
 
@@ -33,6 +34,35 @@ void QTestStudy::guiTest()
 
     QTest::keyClicks(&lineedit, "Holy cheese...");
     QCOMPARE(lineedit.text(), QString("Holy cheese..."));
+}
+
+void QTestStudy::guiTestUpdate()
+{
+    QFETCH(QTestEventList, event);
+    QFETCH(QString, expected);
+
+    QLineEdit line;
+    event.simulate(&line);
+
+    QCOMPARE(line.text(), expected);
+}
+
+void QTestStudy::guiTestUpdate_data()
+{
+    QTest::addColumn<QTestEventList>("event");
+    QTest::addColumn<QString>("expected");
+
+    QTestEventList list1;
+    list1.addKeyClick('a');
+    QTest::newRow("char") << list1 << "a";
+
+    QTestEventList list2;
+    list2.addKeyClick('x');
+    list2.addKeyClick('y');
+    list2.addKeyClick('N');
+    list2.addKeyClick(Qt::Key_Backspace);
+    list2.addKeyClick('z');
+    QTest::newRow("Oops, it's okay...") << list2 << "xyz";
 }
 
 QTEST_MAIN(QTestStudy);
