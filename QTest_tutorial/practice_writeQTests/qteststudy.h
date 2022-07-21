@@ -17,6 +17,8 @@ private slots:
     void testBenchmark();
     void testString();
     void testString_data();
+    void skipTest();
+    void skipTest_data();
 };
 
 #endif // QTESTSTUDY_H

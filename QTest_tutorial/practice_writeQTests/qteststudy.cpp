@@ -100,6 +100,7 @@ void QTestStudy::testString()
         }
     }
     Q_UNUSED(result);
+
 }
 
 void QTestStudy::testString_data()
@@ -108,6 +109,24 @@ void QTestStudy::testString_data()
 
     QTest::newRow("local aware compare") << true;
     QTest::newRow("standart compare") << false;
+}
+
+void QTestStudy::skipTest()
+{
+    QFETCH(bool, boolvalue);
+    Q_UNUSED(boolvalue);
+
+    QSKIP("Hi, guys");
+}
+
+void QTestStudy::skipTest_data()
+{
+    QTest::addColumn<bool>("boolvalue");
+
+    QTest::newRow("True") << true;
+    QTest::newRow("False") << false;
+
+    QSKIP("skipping all");
 }
 
 QTEST_MAIN(QTestStudy);
