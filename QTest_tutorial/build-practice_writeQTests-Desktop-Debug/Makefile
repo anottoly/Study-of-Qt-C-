@@ -190,6 +190,30 @@ practice_writeQTests_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice_writeQTests.dir/build.make CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.s
 .PHONY : practice_writeQTests_autogen/mocs_compilation.cpp.s
 
+qteststudy.o: qteststudy.cpp.o
+.PHONY : qteststudy.o
+
+# target to build an object file
+qteststudy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice_writeQTests.dir/build.make CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o
+.PHONY : qteststudy.cpp.o
+
+qteststudy.i: qteststudy.cpp.i
+.PHONY : qteststudy.i
+
+# target to preprocess a source file
+qteststudy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice_writeQTests.dir/build.make CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.i
+.PHONY : qteststudy.cpp.i
+
+qteststudy.s: qteststudy.cpp.s
+.PHONY : qteststudy.s
+
+# target to generate assembly for a file
+qteststudy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice_writeQTests.dir/build.make CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.s
+.PHONY : qteststudy.cpp.s
+
 widget.o: widget.cpp.o
 .PHONY : widget.o
 
@@ -230,6 +254,9 @@ help:
 	@echo "... practice_writeQTests_autogen/mocs_compilation.o"
 	@echo "... practice_writeQTests_autogen/mocs_compilation.i"
 	@echo "... practice_writeQTests_autogen/mocs_compilation.s"
+	@echo "... qteststudy.o"
+	@echo "... qteststudy.i"
+	@echo "... qteststudy.s"
 	@echo "... widget.o"
 	@echo "... widget.i"
 	@echo "... widget.s"

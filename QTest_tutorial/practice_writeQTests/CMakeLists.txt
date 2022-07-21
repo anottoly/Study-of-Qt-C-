@@ -12,13 +12,18 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
+#find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Test)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Test)
+
 
 set(PROJECT_SOURCES
         main.cpp
         widget.cpp
         widget.h
         widget.ui
+        qteststudy.cpp
+        qteststudy.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -45,6 +50,7 @@ else()
 endif()
 
 target_link_libraries(practice_writeQTests PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(practice_writeQTests PRIVATE Qt${QT_VERSION_MAJOR}::Test)
 
 set_target_properties(practice_writeQTests PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/main.cpp" "CMakeFiles/practice_writeQTests.dir/main.cpp.o" "gcc" "CMakeFiles/practice_writeQTests.dir/main.cpp.o.d"
   "/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/mocs_compilation.cpp" "CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilation.cpp.o.d"
+  "/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp" "CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o" "gcc" "CMakeFiles/practice_writeQTests.dir/qteststudy.cpp.o.d"
   "/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/widget.cpp" "CMakeFiles/practice_writeQTests.dir/widget.cpp.o" "gcc" "CMakeFiles/practice_writeQTests.dir/widget.cpp.o.d"
   )
 

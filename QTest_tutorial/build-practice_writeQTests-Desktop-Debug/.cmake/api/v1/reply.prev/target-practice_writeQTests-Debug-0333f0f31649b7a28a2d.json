@@ -25,13 +25,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 41,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 47,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 53,
 				"parent" : 0
 			}
 		]
@@ -61,6 +67,14 @@
 				{
 					"backtrace" : 2,
 					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TESTCASE_BUILDDIR=\"/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TESTLIB_LIB"
 				},
 				{
 					"backtrace" : 2,
@@ -103,6 +117,11 @@
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/qt5/QtTest"
 				}
 			],
 			"language" : "CXX",
@@ -118,7 +137,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5
 			]
 		}
 	],
@@ -148,6 +168,11 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib64/libQt5Test.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/usr/lib64/libQt5Gui.so.5.15.2",
 				"role" : "libraries"
 			},
@@ -173,14 +198,16 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				3
+				3,
+				6
 			]
 		},
 		{
@@ -221,6 +248,17 @@
 			"backtrace" : 1,
 			"path" : "widget.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "qteststudy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "qteststudy.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
