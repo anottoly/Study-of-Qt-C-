@@ -270,7 +270,7 @@ CMakeFiles/practice_writeQTests.dir/practice_writeQTests_autogen/mocs_compilatio
  /usr/include/qt5/QtWidgets/QSizePolicy \
  /usr/include/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/qt5/QtCore/QMetaEnum /usr/include/qt5/QtCore/qmetaobject.h \
- /usr/include/qt5/QtCore/QObject \
+ /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtWidgets/QWidget \
+ /usr/include/qt5/QtWidgets/qwidget.h \
  /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/EWIEGA46WW/moc_widget.cpp \
- /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/EWIEGA46WW/../../../practice_writeQTests/widget.h \
- /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h
+ /home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/build-practice_writeQTests-Desktop-Debug/practice_writeQTests_autogen/EWIEGA46WW/../../../practice_writeQTests/widget.h

@@ -1,6 +1,6 @@
 #include "qteststudy.h"
 #include <QString>
-
+#include <QLineEdit>
 
 void QTestStudy::toUpper()
 {
@@ -27,7 +27,13 @@ void QTestStudy::toUpperUpdate_data()
     QTest::newRow("All upper") << QString("SPUNCH BOB SQUARE PANTS!") << QString("SPUNCH BOB SQUARE PANTS!");
 }
 
+void QTestStudy::guiTest()
+{
+    QLineEdit lineedit;
 
+    QTest::keyClicks(&lineedit, "Holy cheese...");
+    QCOMPARE(lineedit.text(), QString("Holy cheese..."));
+}
 
 QTEST_MAIN(QTestStudy);
 #include "qteststudy.moc"

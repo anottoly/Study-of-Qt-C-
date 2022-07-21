@@ -340,6 +340,7 @@
   /usr/include/qt5/QtTest/qttestglobal.h \
   /usr/include/qt5/QtTest/qttestlib-config.h \
   /usr/include/qt5/QtWidgets/QSizePolicy \
+  /usr/include/qt5/QtWidgets/QWidget \
   /usr/include/qt5/QtWidgets/qapplication.h \
   /usr/include/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/qt5/QtWidgets/qtestsupport_widgets.h \

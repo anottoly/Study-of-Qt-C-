@@ -306,6 +306,7 @@
   /usr/include/qt5/QtGui/qmatrix.h \
   /usr/include/qt5/QtGui/qpaintdevice.h \
   /usr/include/qt5/QtGui/qpalette.h \
+  /usr/include/qt5/QtGui/qpen.h \
   /usr/include/qt5/QtGui/qpixelformat.h \
   /usr/include/qt5/QtGui/qpixmap.h \
   /usr/include/qt5/QtGui/qpolygon.h \
@@ -315,6 +316,9 @@
   /usr/include/qt5/QtGui/qsurface.h \
   /usr/include/qt5/QtGui/qsurfaceformat.h \
   /usr/include/qt5/QtGui/qtestsupport_gui.h \
+  /usr/include/qt5/QtGui/qtextcursor.h \
+  /usr/include/qt5/QtGui/qtextformat.h \
+  /usr/include/qt5/QtGui/qtextoption.h \
   /usr/include/qt5/QtGui/qtgui-config.h \
   /usr/include/qt5/QtGui/qtguiglobal.h \
   /usr/include/qt5/QtGui/qtouchdevice.h \
@@ -341,8 +345,12 @@
   /usr/include/qt5/QtTest/qtesttouch.h \
   /usr/include/qt5/QtTest/qttestglobal.h \
   /usr/include/qt5/QtTest/qttestlib-config.h \
+  /usr/include/qt5/QtWidgets/QLineEdit \
   /usr/include/qt5/QtWidgets/QSizePolicy \
+  /usr/include/qt5/QtWidgets/QWidget \
   /usr/include/qt5/QtWidgets/qapplication.h \
+  /usr/include/qt5/QtWidgets/qframe.h \
+  /usr/include/qt5/QtWidgets/qlineedit.h \
   /usr/include/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/qt5/QtWidgets/qtestsupport_widgets.h \
   /usr/include/qt5/QtWidgets/qtwidgets-config.h \
