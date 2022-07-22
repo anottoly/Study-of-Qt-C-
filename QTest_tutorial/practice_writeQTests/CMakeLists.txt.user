@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 7.0.2, 2022-07-21T17:42:36. -->
+<!-- Written by QtCreator 7.0.2, 2022-07-21T22:32:56. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -70,8 +70,10 @@
    <valuemap type="QVariantMap" key="AutoTest.CheckStates">
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:All lower">Checked</value>
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:All upper">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:False">Checked</value>
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:Mixed">Checked</value>
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:Oops, it's okay...">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:True">Checked</value>
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:char">Checked</value>
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:guiTest">Checked</value>
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:guiTestUpdate">Checked</value>
@@ -87,7 +89,6 @@
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:toUpperUpdate">Checked</value>
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.cpp:toUpperUpdate_data">Checked</value>
     <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.h:QTestStudy">Checked</value>
-    <value type="Qt::CheckState" key="1@/home/localadmin/Develop/Study-of-Qt-Cpp/QTest_tutorial/practice_writeQTests/qteststudy.h:skipTest_data">Checked</value>
    </valuemap>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
    <value type="bool" key="AutoTest.UseGlobal">true</value>
