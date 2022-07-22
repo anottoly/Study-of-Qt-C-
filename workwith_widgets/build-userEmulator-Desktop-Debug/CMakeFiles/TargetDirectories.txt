@@ -1,4 +1,0 @@
-/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/CMakeFiles/userEmulator.dir
-/home/localadmin/Develop/Study-of-Qt-Cpp/workwith_widgets/build-userEmulator-Desktop-Debug/CMakeFiles/userEmulator_autogen.dir

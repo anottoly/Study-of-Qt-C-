@@ -1,1 +1,0 @@
-/usr/bin/g++ -fsanitize=address -g CMakeFiles/progforMatrixClass.dir/main.cpp.o CMakeFiles/progforMatrixClass.dir/matrix.cpp.o -o progforMatrixClass  /usr/lib64/libQt5Core.so.5.15.2 

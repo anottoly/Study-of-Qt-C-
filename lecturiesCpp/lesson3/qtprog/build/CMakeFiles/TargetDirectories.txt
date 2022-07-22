@@ -1,3 +1,0 @@
-/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/CMakeFiles/rebuild_cache.dir
-/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/CMakeFiles/edit_cache.dir
-/home/localadmin/Develop/Study-of-Qt-Cpp/lecturiesCpp/lesson3/qtprog/build/CMakeFiles/pro.dir

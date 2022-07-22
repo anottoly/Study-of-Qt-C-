@@ -1,1 +1,0 @@
-/usr/bin/g++ -fsanitize=address -g CMakeFiles/pro.dir/main.cpp.o CMakeFiles/pro.dir/check_intvalue_prime.cpp.o -o pro  /usr/lib64/libQt5Core.so.5.15.2 
